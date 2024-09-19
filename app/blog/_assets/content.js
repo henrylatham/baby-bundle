@@ -1,5 +1,5 @@
 import Image from "next/image";
-import marcImg from "@/app/blog/_assets/images/authors/marc.png";
+import lathamsImg from "@/app/blog/_assets/images/authors/marc.png";
 import introducingSupabaseImg from "@/public/blog/introducing-supabase/header.png";
 
 // ==================================================================================================================================================================
@@ -8,33 +8,69 @@ import introducingSupabaseImg from "@/public/blog/introducing-supabase/header.pn
 
 // These slugs are used to generate pages in the /blog/category/[categoryI].js. It's a way to group articles by category.
 const categorySlugs = {
-  feature: "feature",
-  tutorial: "tutorial",
+  guides: "guides",
+  travelbag: "travelbag",
 };
 
 // All the blog categories data display in the /blog/category/[categoryI].js pages.
 export const categories = [
   {
     // The slug to use in the URL, from the categorySlugs object above.
-    slug: categorySlugs.feature,
+    slug: categorySlugs.guides,
     // The title to display the category title (h1), the category badge, the category filter, and more. Less than 60 characters.
-    title: "New Features",
+    title: "Ultimate Guides",
     // A short version of the title above, display in small components like badges. 1 or 2 words
-    titleShort: "Features",
+    titleShort: "Guides",
     // The description of the category to display in the category page. Up to 160 characters.
     description:
-      "Here are the latest features we've added to ShipFast. I'm constantly improving our product to help you ship faster.",
+      "Ultimate guides we've put together travelling with our baby to help you enjoy your trip!",
     // A short version of the description above, only displayed in the <Header /> on mobile. Up to 60 characters.
-    descriptionShort: "Latest features added to ShipFast.",
+    descriptionShort: "Our ultimate, comprehensive guides for baby travel.",
   },
   {
-    slug: categorySlugs.tutorial,
-    title: "How Tos & Tutorials",
-    titleShort: "Tutorials",
+    slug: categorySlugs.babytravelbag,
+    title: "Baby Travel Bags",
+    titleShort: "bags",
     description:
-      "Learn how to use ShipFast with these step-by-step tutorials. I'll show you how to ship faster and save time.",
+      "Understand the pros & cons of which bags to bring - & how to travel light (& stress-free!)",
     descriptionShort:
-      "Learn how to use ShipFast with these step-by-step tutorials.",
+      "Which bag to take?",
+  },
+  {
+    slug: categorySlugs.babyluggage,
+    title: "Baby Luggage",
+    titleShort: "packing",
+    description:
+      "Understand what to pack to make your first big trip as a family as stress-free as possible",
+    descriptionShort:
+      "What to pack for your baby?",
+  },
+  {
+    slug: categorySlugs.babytravelsystem,
+    title: "Baby Travel Systems",
+    titleShort: "strollers",
+    description:
+      "The ultimate guide to baby travel systems, carriers & strollers",
+    descriptionShort:
+      "Travelling with strollers, car seats and/or carriers",
+  },
+  {
+    slug: categorySlugs.babytravelessentials,
+    title: "Baby Travel Essentials",
+    titleShort: "essentials",
+    description:
+      "Understand the essential things to think about when travelling with your baby",
+    descriptionShort:
+      "Travel essential tips & advice",
+  },
+  {
+    slug: categorySlugs.flying,
+    title: "Flying With A Baby",
+    titleShort: "flying",
+    description:
+      "Understand how to plan, prepare - & enjoy - a flight with your baby",
+    descriptionShort:
+      "Advice on flying with your baby",
   },
 ];
 
@@ -44,27 +80,6 @@ export const categories = [
 
 // Social icons used in the author's bio.
 const socialIcons = {
-  twitter: {
-    name: "Twitter",
-    svg: (
-      <svg
-        version="1.1"
-        id="svg5"
-        x="0px"
-        y="0px"
-        viewBox="0 0 1668.56 1221.19"
-        className="w-9 h-9"
-        // Using a dark theme? ->  className="w-9 h-9 fill-white"
-      >
-        <g id="layer1" transform="translate(52.390088,-25.058597)">
-          <path
-            id="path1009"
-            d="M283.94,167.31l386.39,516.64L281.5,1104h87.51l340.42-367.76L984.48,1104h297.8L874.15,558.3l361.92-390.99   h-87.51l-313.51,338.7l-253.31-338.7H283.94z M412.63,231.77h136.81l604.13,807.76h-136.81L412.63,231.77z"
-          />
-        </g>
-      </svg>
-    ),
-  },
   linkedin: {
     name: "LinkedIn",
     svg: (
@@ -78,56 +93,34 @@ const socialIcons = {
       </svg>
     ),
   },
-  github: {
-    name: "GitHub",
-    svg: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="w-6 h-6"
-        // Using a dark theme? ->  className="w-6 h-6 fill-white"
-        viewBox="0 0 24 24"
-      >
-        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-      </svg>
-    ),
-  },
 };
 
 // These slugs are used to generate pages in the /blog/author/[authorId].js. It's a way to show all articles from an author.
 const authorSlugs = {
-  marc: "marc",
+  lathams: "lathams",
 };
 
 // All the blog authors data display in the /blog/author/[authorId].js pages.
 export const authors = [
   {
     // The slug to use in the URL, from the authorSlugs object above.
-    slug: authorSlugs.marc,
+    slug: authorSlugs.lathams,
     // The name to display in the author's bio. Up to 60 characters.
-    name: "Marc Lou",
+    name: "Henry & Rebeca Latham",
     // The job to display in the author's bio. Up to 60 characters.
-    job: "Maker of ByeDispute",
+    job: "Baby Travel Pros",
     // The description of the author to display in the author's bio. Up to 160 characters.
     description:
-      "Marc is a developer and an entrepreneur. He's built 20 startups in the last 3 years. 6 were profitable and 3 were acquired. He's currently building ByeDispute, the #1 Stripe Chargebacks Protection tool.",
+      "We love travel. Henry was a digital nomad for 8 years & visited 58 countries. Rebeca's worked & lived in 5 countries. We didn't think having a child should stop us. Since Fred was born in April 2023, we've travelled to 12+ countries with him (including Japan, Taiwan & Sri Lanka)",
     // The avatar of the author to display in the author's bio and avatar badge. It's better to use a local image, but you can also use an external image (https://...)
-    avatar: marcImg,
+    avatar: lathamsImg,
     // A list of social links to display in the author's bio.
     socials: [
-      {
-        name: socialIcons.twitter.name,
-        icon: socialIcons.twitter.svg,
-        url: "https://twitter.com/marc_louvion",
-      },
+
       {
         name: socialIcons.linkedin.name,
         icon: socialIcons.linkedin.svg,
-        url: "https://www.linkedin.com/in/marclouvion/",
-      },
-      {
-        name: socialIcons.github.name,
-        icon: socialIcons.github.svg,
-        url: "https://github.com/Marc-Lou-Org/ship-fast",
+        url: "",
       },
     ],
   },
@@ -153,34 +146,25 @@ const styles = {
 // All the blog articles data display in the /blog/[articleId].js pages.
 export const articles = [
   {
-    // The unique slug to use in the URL. It's also used to generate the canonical URL.
-    slug: "introducing-supabase",
-    // The title to display in the article page (h1). Less than 60 characters. It's also used to generate the meta title.
-    title: "Introducing Supabase to ShipFast",
-    // The description of the article to display in the article page. Up to 160 characters. It's also used to generate the meta description.
+    slug: "best-baby-travel-bags-for-every-journey",
+    title: "Best Baby Travel Bags for Every Journey",
     description:
-      "Supabase is an open-source Firebase alternative. It's a great tool for building a backend for your app. It's now integrated with ShipFast!",
-    // An array of categories of the article. It's used to generate the category badges, the category filter, and more.
+      "Discover the top baby travel bags for every adventure. Our favorite picks for keeping your baby happy and parents stress-free while on the go!",
     categories: [
-      categories.find((category) => category.slug === categorySlugs.feature),
+      categories.find((category) => category.slug === categorySlugs.babytravelbag),
     ],
-    // The author of the article. It's used to generate a link to the author's bio page.
-    author: authors.find((author) => author.slug === authorSlugs.marc),
-    // The date of the article. It's used to generate the meta date.
-    publishedAt: "2023-11-20",
+    author: authors.find((author) => author.slug === authorSlugs.lathams),
+    publishedAt: "2024-09-05",
     image: {
-      // The image to display in <CardArticle /> components.
       src: introducingSupabaseImg,
-      // The relative URL of the same image to use in the Open Graph meta tags & the Schema Markup JSON-LD.
-      urlRelative: "/blog/introducing-supabase/header.jpg",
-      alt: "Supabase and ShipFast logo combined",
+      urlRelative: "/blog/best-baby-travel-bags-for-every-journey/header.jpg",
+      alt: "A collection of baby travel bags with essentials",
     },
-    // The actual content of the article that will be shown under the <h1> title in the article page.
     content: (
       <>
         <Image
           src={introducingSupabaseImg}
-          alt="Supabase and ShipFast logo combined"
+          alt="A collection of baby travel bags with essentials"
           width={700}
           height={500}
           priority={true}
@@ -188,57 +172,155 @@ export const articles = [
           placeholder="blur"
         />
         <section>
-          <h2 className={styles.h2}>Introduction</h2>
+          <h2 className={styles.h2}>Why You Need the Right Baby Travel Bag</h2>
           <p className={styles.p}>
-            Supabase is an open-source Firebase alternative. It&apos;s a great
-            tool for building a backend for your app. It&apos;s now integrated
-            with ShipFast!
+            Let’s face it – traveling with a baby can be a juggling act! From diapers to bottles, having the right <strong>baby travel bag</strong> makes all the difference. After plenty of road trips and one too many airport security checks, we've discovered a thing or two about what makes the best travel bag for your baby. Spoiler: It's all about pockets, durability, and comfort!
           </p>
         </section>
 
         <section>
-          <h3 className={styles.h3}>1. Create a supabase account</h3>
+          <h3 className={styles.h3}>1. Baby Jogger Travel Bags: Perfect for Parents on the Move</h3>
           <p className={styles.p}>
-            First, go to{" "}
-            <a href="https://supabase.com/" className="link link-primary">
-              Supabase
-            </a>{" "}
-            and create an account. It&apos;s free for up to 10,000 rows per
-            table.
-            <br />
-            Then create a new project and a new table. You can use the following
-            SQL schema:
+            If you're constantly on the go with a stroller in tow, a <strong>baby jogger travel bag</strong> is a must-have. These bags attach directly to your stroller, offering hands-free convenience and plenty of storage space. We love the ones with insulated pockets for bottles – nothing like a warm bottle to soothe a cranky little traveler!
           </p>
-
-          <pre className={styles.code}>
-            <code>
-              {`CREATE TABLE public.users (
-  id bigint NOT NULL DEFAULT nextval('users_id_seq'::regclass),
-  email text NOT NULL,
-  password text NOT NULL,
-  created_at timestamp with time zone NOT NULL DEFAULT now(),
-  updated_at timestamp with time zone NOT NULL DEFAULT now(),
-  CONSTRAINT users_pkey PRIMARY KEY (id)
-);`}
-            </code>
-          </pre>
         </section>
 
         <section>
-          <h3 className={styles.h3}>2. Add your credentials to ShipFast</h3>
+          <h3 className={styles.h3}>2. Baby Travel Bags with Insulated Bottle Storage</h3>
           <p className={styles.p}>
-            Copy the <span className={styles.codeInline}>API URL</span> and{" "}
-            <span className={styles.codeInline}>API Key</span> from your
-            Supabase project settings and add them to your ShipFast project
-            settings. Add these files to your project:
+            As parents, we've learned the hard way that bottles need their own space. A <strong>baby bottle travel bag</strong> is specifically designed with insulated compartments, keeping milk or formula at the right temperature. Our favorite tip? Choose a bag with enough room for snacks and a few toys – keeping baby (and you) happy during any journey.
           </p>
+        </section>
 
+        <section>
+          <h3 className={styles.h3}>3. Our Favorite Baby Travel Bags of the Year</h3>
           <ul className={styles.ul}>
-            <li className={styles.li}>.env.local</li>
-            <li className={styles.li}>.env.production</li>
+            <li className={styles.li}><strong>Orbit Baby Travel Bag:</strong> Spacious and versatile, this bag makes organizing baby essentials a breeze.</li>
+            <li className={styles.li}><strong>Baby Brezza Travel Bag:</strong> Ideal for parents who need to carry feeding essentials on the go.</li>
+            <li className={styles.li}><strong>Skip Hop Forma Backpack:</strong> A stylish and practical option with plenty of pockets and a built-in changing pad.</li>
           </ul>
+        </section>
+
+        <section>
+          <h3 className={styles.h3}>4. Travel Bag Tips from the Experts</h3>
+          <p className={styles.p}>
+            When packing a travel bag for baby, think about ease of access. Always keep diapers, wipes, and snacks in the outer pockets. Trust us, you don’t want to be digging through the bottom of the bag mid-flight!
+          </p>
+        </section>
+      </>
+    ),
+  },
+  {
+    slug: "how-to-pack-your-baby-travel-bag-like-a-pro",
+    title: "How to Pack Your Baby Travel Bag Like a Pro",
+    description:
+      "Our best tips for packing a baby travel bag efficiently. Learn how to include all the essentials without the bulk!",
+    categories: [
+      categories.find((category) => category.slug === categorySlugs.babytravelbag),
+    ],
+    author: authors.find((author) => author.slug === authorSlugs.lathams),
+    publishedAt: "2024-08-20",
+    image: {
+      src: introducingSupabaseImg,
+      urlRelative: "/blog/how-to-pack-your-baby-travel-bag-like-a-pro/header.jpg",
+      alt: "A well-organized baby travel bag with essentials neatly packed",
+    },
+    content: (
+      <>
+        <Image
+          src={introducingSupabaseImg}
+          alt="A well-organized baby travel bag with essentials neatly packed"
+          width={700}
+          height={500}
+          priority={true}
+          className="rounded-box"
+          placeholder="blur"
+        />
+        <section>
+          <h2 className={styles.h2}>Packing for Stress-Free Travel</h2>
+          <p className={styles.p}>
+            Packing a <strong>baby travel bag</strong> can feel like preparing for a mini expedition. We’ve been there, overpacking and then struggling to find the one thing we actually need! Here's our tried-and-true approach to packing the ultimate travel baby bag – less chaos, more happy memories.
+          </p>
+        </section>
+
+        <section>
+          <h3 className={styles.h3}>1. Use a Checklist</h3>
+          <p className={styles.p}>
+            We've learned that the key to packing efficiently is a checklist. Essential items include diapers, wipes, a change of clothes, bottles, and snacks. For longer trips, add in toys, a travel blanket, and even a few plastic bags for messy situations. And don’t forget the <strong>baby bottle travel bag</strong> with insulated pockets – it's a lifesaver for keeping bottles at the right temperature.
+          </p>
+        </section>
+
+        <section>
+          <h3 className={styles.h3}>2. Keep the Essentials Within Reach</h3>
+          <p className={styles.p}>
+            If you’re traveling by plane, pack a <strong>baby travel bag for the plane</strong> with all the essentials within easy reach. Keep diapers, wipes, and bottles in outer pockets. Trust us, mid-flight diaper changes are much easier when you don’t have to dig around for supplies.
+          </p>
+        </section>
+
+        <section>
+          <h3 className={styles.h3}>3. Choose the Right Bag for Your Needs</h3>
+          <p className={styles.p}>
+            Not every travel baby bag is created equal. For short trips, a compact bag with a few key compartments is perfect. For longer journeys, consider a bag like the <strong>Orbit Baby Travel Bag</strong> that offers plenty of space and easy access. Our top tip: always choose a bag that comes with a changing mat. You’ll thank us later!
+          </p>
+        </section>
+      </>
+    ),
+  },
+  {
+    slug: "baby-travel-bags-for-every-occasion",
+    title: "Baby Travel Bags for Every Occasion",
+    description:
+      "From quick trips to full-blown vacations, find the best baby travel bags suited for every kind of adventure.",
+    categories: [
+      categories.find((category) => category.slug === categorySlugs.babytravelbag),
+    ],
+    author: authors.find((author) => author.slug === authorSlugs.lathams),
+    publishedAt: "2024-09-12",
+    image: {
+      src: introducingSupabaseImg,
+      urlRelative: "/blog/baby-travel-bags-for-every-occasion/header.jpg",
+      alt: "Different styles of baby travel bags for various occasions",
+    },
+    content: (
+      <>
+        <Image
+          src={introducingSupabaseImg}
+          alt="Different styles of baby travel bags for various occasions"
+          width={700}
+          height={500}
+          priority={true}
+          className="rounded-box"
+          placeholder="blur"
+        />
+        <section>
+          <h2 className={styles.h2}>Choosing the Right Baby Travel Bag</h2>
+          <p className={styles.p}>
+            Every outing with a baby is an adventure, whether it's a quick trip to the store or a week-long vacation. Over the past couple of years, we’ve tried out a range of <strong>baby travel bags</strong> for different occasions. Here's what we've learned about matching the right bag to the right adventure!
+          </p>
+        </section>
+
+        <section>
+          <h3 className={styles.h3}>1. Quick Outings: Compact and Stylish</h3>
+          <p className={styles.p}>
+            For those quick trips to the park or store, a compact <strong>travel baby bag</strong> with just the essentials is perfect. We love bags that are stylish yet practical, with a few compartments to hold diapers, wipes, and a snack. The best part? They're lightweight and don’t weigh you down.
+          </p>
+        </section>
+
+        <section>
+          <h3 className={styles.h3}>2. Day Trips: Roomy and Organized</h3>
+          <p className={styles.p}>
+            Heading out for a full day? You'll need a bag with a bit more space. We recommend the <strong>best baby travel bags</strong> that come with insulated pockets for bottles, a built-in changing mat, and plenty of room for extra clothes and toys. Our go-to for day trips is the <strong>Orbit Baby Travel Bag</strong> – it has it all!
+          </p>
+        </section>
+
+        <section>
+          <h3 className={styles.h3}>3. Vacations: All-In-One Solutions</h3>
+          <p className={styles.p}>
+            When it comes to longer trips, a versatile bag like the <strong>Baby Brezza Travel Bag</strong> is ideal. It offers plenty of storage and organization options, keeping everything you need at your fingertips. It even has insulated compartments to keep milk cool and snacks fresh – a must-have for family vacations!
+          </p>
         </section>
       </>
     ),
   },
 ];
+

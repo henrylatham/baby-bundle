@@ -31,3 +31,17 @@ if (!uri) {
 }
 
 export default clientPromise;
+
+
+// New functions for the suggestion app
+
+export async function connectToDatabase() {
+  const client = await clientPromise;
+  const db = client.db('suggestion_app');
+  return { client, db };
+}
+
+export async function getSuggestions() {
+  const { db } = await connectToDatabase();
+  return db.collection('suggestions').find({}).sort({ createdAt: -1 }).toArray();
+}

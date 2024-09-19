@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Portable Travel Crib",
+    "description": "Lightweight and easy to set up, perfect for travel with infants and toddlers.",
+    "price": 149.99,
+    "amazonLink": "https://www.amazon.com/example-travel-crib",
+    "tags": ["weekend", "week", "twoWeeks", "hotel", "apartment", "newborn", "infant", "toddler"]
+  },
+  {
+    "id": 2,
+    "title": "Baby Beach Tent",
+    "description": "UV protection tent for beach trips with babies and toddlers.",
+    "price": 39.99,
+    "amazonLink": "https://www.amazon.com/example-beach-tent",
+    "tags": ["beach", "newborn", "infant", "toddler"]
+  },
+  {
+    "id": 3,
+    "title": "Compact Stroller",
+    "description": "Lightweight stroller perfect for city exploration and travel.",
+    "price": 199.99,
+    "amazonLink": "https://www.amazon.com/example-compact-stroller",
+    "tags": ["city", "infant", "toddler", "plane", "train"]
+  },
+  {
+    "id": 4,
+    "title": "Baby Carrier",
+    "description": "Ergonomic baby carrier for hands-free baby wearing during travels.",
+    "price": 89.99,
+    "amazonLink": "https://www.amazon.com/example-baby-carrier",
+    "tags": ["newborn", "infant", "city", "mountains"]
+  },
+  {
+    "id": 5,
+    "title": "Travel Bottle Warmer",
+    "description": "Portable bottle warmer for on-the-go feeding.",
+    "price": 29.99,
+    "amazonLink": "https://www.amazon.com/example-bottle-warmer",
+    "tags": ["newborn", "infant", "car", "plane", "train"]
+  }
+]

@@ -1,5 +1,7 @@
+"use client";
+
 import Image from "next/image";
-import config from "@/config";
+import ButtonInternal from '../components/ButtonInternal'; 
 
 const CTA = () => {
   return (
@@ -20,10 +22,11 @@ const CTA = () => {
             Don&apos;t waste time integrating APIs or designing a pricing
             section...
           </p>
-
-          <button className="btn btn-primary btn-wide">
-            Get {config.appName}
-          </button>
+          <ButtonInternal 
+            text="Get Started" 
+            className="btn btn-primary btn-wide"
+            targetPage="/babybundle" 
+          />
         </div>
       </div>
     </section>

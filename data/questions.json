@@ -1,0 +1,47 @@
+[
+  {
+    "id": "tripLength",
+    "text": "How long is your trip?",
+    "options": [
+      { "value": "weekend", "label": "Long weekend" },
+      { "value": "week", "label": "1 Week" },
+      { "value": "twoWeeks", "label": "2 Weeks or more" }
+    ]
+  },
+  {
+    "id": "destination",
+    "text": "What type of destination are you visiting?",
+    "options": [
+      { "value": "beach", "label": "Beach" },
+      { "value": "city", "label": "City" },
+      { "value": "mountains", "label": "Mountains" }
+    ]
+  },
+  {
+    "id": "transportation",
+    "text": "How will you be traveling?",
+    "options": [
+      { "value": "car", "label": "By car" },
+      { "value": "plane", "label": "By plane" },
+      { "value": "train", "label": "By train" }
+    ]
+  },
+  {
+    "id": "accommodation",
+    "text": "What type of accommodation will you be staying in?",
+    "options": [
+      { "value": "hotel", "label": "Hotel" },
+      { "value": "apartment", "label": "Apartment/Vacation Rental" },
+      { "value": "camping", "label": "Camping" }
+    ]
+  },
+  {
+    "id": "babyAge",
+    "text": "How old is your baby?",
+    "options": [
+      { "value": "newborn", "label": "0-3 months" },
+      { "value": "infant", "label": "3-12 months" },
+      { "value": "toddler", "label": "1-3 years" }
+    ]
+  }
+]
