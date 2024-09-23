@@ -12,15 +12,15 @@ import config from "@/config";
 // You are an excellent lawyer.
 
 // I need your help to write a simple Terms & Services for my website. Here is some context:
-// - Website: https://shipfa.st
-// - Name: ShipFast
-// - Contact information: marc@shipfa.st
-// - Description: A JavaScript code boilerplate to help entrepreneurs launch their startups faster
-// - Ownership: when buying a package, users can download code to create apps. They own the code but they do not have the right to resell it. They can ask for a full refund within 7 day after the purchase.
+// - Website: https://babytravel.us
+// - Name: Baby Travel Bag
+// - Contact information: henry@babytravel.us
+// - Description: Find the right travel suggestions, tips & products to travel stress-free with your baby
+// - Ownership: No purchases are directly made with our company.
 // - User data collected: name, email and payment information
 // - Non-personal data collection: web cookies
-// - Link to privacy-policy: https://shipfa.st/privacy-policy
-// - Governing Law: France
+// - Link to privacy-policy: https://babytravel.ux/privacy-policy
+// - Governing Law: United Kingdom
 // - Updates to the Terms: users will be updated by email
 
 // Please write a simple Terms & Services for my site. Add the current date. Do not add or explain your reasoning. Answer:
@@ -57,39 +57,29 @@ const TOS = () => {
           className="leading-relaxed whitespace-pre-wrap"
           style={{ fontFamily: "sans-serif" }}
         >
-          {`Last Updated: September 26, 2023
+          {`Last Updated: September 23, 2024
 
-Welcome to ShipFast!
+Welcome to Baby Travel Bag! By accessing or using our website (https://babytravel.us), you agree to comply with and be bound by the following Terms & Services. If you do not agree to these terms, please do not use our site.
 
-These Terms of Service ("Terms") govern your use of the ShipFast website at https://shipfa.st ("Website") and the services provided by ShipFast. By using our Website and services, you agree to these Terms.
+1. Services Provided
+Baby Travel Bag offers travel suggestions, tips, and product recommendations for traveling with your baby. We do not directly sell any products or services. All purchases or transactions are handled by third parties.
 
-1. Description of ShipFast
+2. User Data Collection
+We collect personal information such as your name, email address, and payment information when you interact with our site. For more details, please review our Privacy Policy.
 
-ShipFast is a platform that offers a JavaScript code boilerplate to assist entrepreneurs in launching their startups more efficiently.
+3. Non-Personal Data Collection
+We may collect non-personal data through cookies to improve your experience on our site. By using our website, you consent to the use of cookies.
 
-2. Ownership and Usage Rights
-
-When you purchase a package from ShipFast, you gain the right to download and use the code provided for creating applications. You own the code you create but do not have the right to resell it. We offer a full refund within 7 days of purchase, as specified in our refund policy.
-
-3. User Data and Privacy
-
-We collect and store user data, including name, email, and payment information, as necessary to provide our services. For details on how we handle your data, please refer to our Privacy Policy at https://shipfa.st/privacy-policy.
-
-4. Non-Personal Data Collection
-
-We use web cookies to collect non-personal data for the purpose of improving our services and user experience.
+4. Updates to Terms & Services
+These terms may be updated periodically. When changes occur, we will notify users via email. Please check back regularly to stay informed of any updates.
 
 5. Governing Law
+These Terms & Services are governed by the laws of the United Kingdom. Any legal disputes will be resolved under UK law.
 
-These Terms are governed by the laws of France.
+6. Contact Information
+If you have any questions regarding these Terms & Services, please contact us at henry@babytravel.us.
 
-6. Updates to the Terms
-
-We may update these Terms from time to time. Users will be notified of any changes via email.
-
-For any questions or concerns regarding these Terms of Service, please contact us at marc@shipfa.st.
-
-Thank you for using ShipFast!`}
+By using this site, you acknowledge that you have read and agree to these Terms & Services.`}
         </pre>
       </div>
     </main>

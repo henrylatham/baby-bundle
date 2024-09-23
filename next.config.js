@@ -9,6 +9,15 @@ const nextConfig = {
       "logos-world.net",
     ],
   },
+  webpack: (config, { isServer }) => {
+    config.module.rules.push({
+      test: /\.json$/,
+      loader: 'json-loader',
+      type: 'javascript/auto'
+    });
+
+    return config;
+  },
 };
 
 module.exports = nextConfig;

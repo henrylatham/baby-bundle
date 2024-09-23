@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useRouter } from 'next/navigation';
 import TestimonialsAvatars from "./TestimonialsAvatars";
 import ButtonInternal from '../components/ButtonInternal';
-import HeroImg from "../public/home/Hero.png"
+import HeroImg from "../public/home/hero.jpg"
 
 const Hero = () => {
   const router = useRouter();
@@ -14,15 +14,15 @@ const Hero = () => {
       <div className="flex flex-col gap-10 lg:gap-14 items-center justify-center text-center lg:text-left lg:items-start">
 
         <h1 className="font-extrabold text-4xl lg:text-6xl tracking-tight md:-mb-4">
-          Everything you need to travel with your baby
+          Travel with your baby stress-free.
         </h1>
         <p className="text-lg opacity-80 leading-relaxed">
-          Curated, travel-tested suggestions from what to pack to how to fly with a baby. Get your custom bundle suggestions in seconds:
+          Discover the ultimate guide for first-time parents traveling with their baby:
         </p>
         <ButtonInternal 
           text="Get Started" 
           className="btn btn-primary btn-wide"
-          targetPage="/babybundle" 
+          targetPage="/blog" 
         />
 
         <TestimonialsAvatars priority={true} />

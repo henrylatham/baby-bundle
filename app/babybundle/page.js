@@ -7,7 +7,7 @@ import questions from '@/data/questions.json'
 import products from '@/data/products.json'
 import { filterProducts } from '@/utils/filterProducts'
 
-export default function Babybundle() {
+export default function Home() {
   const [answers, setAnswers] = useState({})
   const [showProducts, setShowProducts] = useState(false)
 
@@ -16,7 +16,7 @@ export default function Babybundle() {
     setShowProducts(true)
   }
 
-  const filteredProducts = filterProducts(products, answers)
+  const filteredProducts = showProducts ? filterProducts(products, answers) : []
 
   return (
     <main className="container mx-auto px-4 py-8">

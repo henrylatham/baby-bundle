@@ -1,47 +1,121 @@
 [
   {
-    "id": "tripLength",
-    "text": "How long is your trip?",
-    "options": [
-      { "value": "weekend", "label": "Long weekend" },
-      { "value": "week", "label": "1 Week" },
-      { "value": "twoWeeks", "label": "2 Weeks or more" }
-    ]
-  },
-  {
-    "id": "destination",
-    "text": "What type of destination are you visiting?",
-    "options": [
-      { "value": "beach", "label": "Beach" },
-      { "value": "city", "label": "City" },
-      { "value": "mountains", "label": "Mountains" }
-    ]
-  },
-  {
-    "id": "transportation",
-    "text": "How will you be traveling?",
-    "options": [
-      { "value": "car", "label": "By car" },
-      { "value": "plane", "label": "By plane" },
-      { "value": "train", "label": "By train" }
-    ]
-  },
-  {
-    "id": "accommodation",
-    "text": "What type of accommodation will you be staying in?",
-    "options": [
-      { "value": "hotel", "label": "Hotel" },
-      { "value": "apartment", "label": "Apartment/Vacation Rental" },
-      { "value": "camping", "label": "Camping" }
-    ]
-  },
-  {
     "id": "babyAge",
     "text": "How old is your baby?",
     "options": [
-      { "value": "newborn", "label": "0-3 months" },
-      { "value": "infant", "label": "3-12 months" },
-      { "value": "toddler", "label": "1-3 years" }
-    ]
+      { "value": "newborn", "label": "Newborn (0-3 months)" },
+      { "value": "infant", "label": "Infant (4-6 months)" },
+      { "value": "olderInfant", "label": "Older infant (7-12 months)" },
+      { "value": "toddler", "label": "Toddler (1-2 years)" }
+    ],
+    "why": "The baby's age will determine the appropriate gear (e.g., strollers, carriers, feeding supplies) that suits their developmental stage."
+  },
+  {
+    "id": "tripType",
+    "text": "What type of trip are you planning?",
+    "options": [
+      { "value": "beach", "label": "Beach holiday" },
+      { "value": "city", "label": "City break" },
+      { "value": "roadTrip", "label": "Road trip" },
+      { "value": "mountain", "label": "Mountain retreat" },
+      { "value": "resort", "label": "Resort vacation" },
+      { "value": "familyVisit", "label": "Family visit" },
+      { "value": "other", "label": "Other" }
+    ],
+    "why": "Helps tailor the bundle to the environment and activities they'll encounter (e.g., beach tent for sun protection or stroller for city navigation)."
+  },
+  {
+    "id": "tripDuration",
+    "text": "How long is your trip?",
+    "options": [
+      { "value": "shortTrip", "label": "1-3 days" },
+      { "value": "weekTrip", "label": "4-7 days" },
+      { "value": "longTrip", "label": "1-2 weeks" },
+      { "value": "extendedTrip", "label": "More than 2 weeks" }
+    ],
+    "why": "Longer trips may require additional or specific products (e.g., more diapers, portable cribs) compared to shorter getaways."
+  },
+  {
+    "id": "transportation",
+    "text": "What's your main mode of transport?",
+    "options": [
+      { "value": "car", "label": "Car" },
+      { "value": "airplane", "label": "Airplane" },
+      { "value": "train", "label": "Train" },
+      { "value": "bus", "label": "Bus" },
+      { "value": "boat", "label": "Boat" },
+      { "value": "multiple", "label": "Combination of multiple" }
+    ],
+    "why": "Determines travel essentials, such as car seats, compact strollers, or airplane-friendly items (like noise-canceling ear protection)."
+  },
+  {
+    "id": "accommodation",
+    "text": "Where are you staying?",
+    "options": [
+      { "value": "hotel", "label": "Hotel" },
+      { "value": "rental", "label": "Airbnb/rental home" },
+      { "value": "resort", "label": "Resort" },
+      { "value": "camping", "label": "Camping" },
+      { "value": "familyFriends", "label": "Staying with family/friends" }
+    ],
+    "why": "Different accommodations may have varying amenities and space availability, affecting the choice of gear (e.g., portable crib for hotel stays vs. travel high chair for rentals)."
+  },
+  {
+    "id": "packingPreference",
+    "text": "Do you prefer to pack light or bring everything you might need?",
+    "options": [
+      { "value": "light", "label": "Pack light (hand luggage)" },
+      { "value": "everything", "label": "Bring everything" },
+      { "value": "inBetween", "label": "Somewhere in between (check-in small suitcase" }
+    ],
+    "why": "Guides the selection of multi-purpose and compact items for light packers or a more comprehensive set for those who prefer to be fully equipped."
+  },
+  {
+    "id": "travelConcerns",
+    "text": "What are your biggest concerns about traveling with your baby?",
+    "options": [
+      { "value": "sleep", "label": "Sleep schedule" },
+      { "value": "feeding", "label": "Feeding" },
+      { "value": "diapers", "label": "Diaper changes" },
+      { "value": "safety", "label": "Safety" },
+      { "value": "entertainment", "label": "Entertainment" },
+      { "value": "sunProtection", "label": "Sun protection" },
+      { "value": "hygiene", "label": "Hygiene" },
+      { "value": "other", "label": "Other" }
+    ],
+    "why": "Identifies specific areas of anxiety, allowing the platform to recommend products that address these concerns."
+  },
+  {
+    "id": "laundryAccess",
+    "text": "Will you be able to do laundry during your trip?",
+    "options": [
+      { "value": "yes", "label": "Yes" },
+      { "value": "no", "label": "No" },
+      { "value": "notSure", "label": "Not sure" }
+    ],
+    "why": "Determines the need for extra clothing, reusable vs. disposable products (e.g., diapers), and cleaning supplies."
+  },
+  {
+    "id": "climate",
+    "text": "What's the weather going to be like?",
+    "options": [
+      { "value": "hot", "label": "Hot weather" },
+      { "value": "cold", "label": "Cold weather" },
+      { "value": "wet", "label": "Rainy/wet conditions" },
+      { "value": "mixed", "label": "Mixed climates" }
+    ],
+    "why": "Climate-specific gear (e.g., sun hats, rain covers, thermal blankets) will be essential for ensuring the baby's comfort."
+  },
+  {
+    "id": "dietaryHealth",
+    "text": "Any dietary/health considerations for your baby?",
+    "options": [
+      { "value": "allergies", "label": "Food allergies" },
+      { "value": "specialFormula", "label": "Special formula" },
+      { "value": "breastfeeding", "label": "Breastfeeding" },
+      { "value": "medication", "label": "Medication" },
+      { "value": "none", "label": "None" }
+    ],
+    "why": "Ensures the inclusion of specialized feeding accessories, storage solutions, or medicine organizers relevant to the baby's dietary and health needs."
   }
 ]

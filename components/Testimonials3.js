@@ -5,23 +5,22 @@ import config from "@/config";
 const list = [
   {
     // Optional, use for social media like Twitter. Does not link anywhere but cool to display
-    username: "marclou",
+    username: "rebecacasa",
     // REQUIRED
-    name: "Marc Lou",
+    name: "Rebeca",
     // REQUIRED
-    text: "Really easy to use. The tutorials are really useful and explains how everything works. Hope to ship my next project really fast!",
+    text: "We've been to Japan, Sri Lanka, Taiwan, Scotland, Spain & Brazil with our 1.5 year old - all without needing to take more than hand luggage!",
     // Optional, a statically imported image (usually from your public folder—recommended) or a link to the person's avatar. Shows a fallback letter if not provided
-    img: "https://pbs.twimg.com/profile_images/1514863683574599681/9k7PqDTA_400x400.jpg",
   },
   {
-    username: "the_mcnaveen",
-    name: "Naveen",
-    text: "Setting up everything from the ground up is a really hard, and time consuming process. What you pay for will save your time for sure.",
+    username: "traveljane",
+    name: "Jane",
+    text: "We were super worried about flying with our baby, Hannah. Luckily, the advice & travel bundle suggested by Baby Travel Bag made our trip a breeze!",
   },
   {
-    username: "wahab",
-    name: "Wahab Shaikh",
-    text: "Easily saves 15+ hrs for me setting up trivial stuff. Now, I can directly focus on shipping features rather than hours of setting up the same technologies from scratch. Feels like a super power! :D",
+    username: "sruthi_p",
+    name: "Sruthi",
+    text: "Saved me A LOT of time trying to work out what to pack. Simple, actionable suggestions that made our trip much more enjoyable.",
   },
 ];
 
@@ -81,12 +80,12 @@ const Testimonials3 = () => {
         <div className="flex flex-col text-center w-full mb-20">
           <div className="mb-8">
             <h2 className="sm:text-5xl text-4xl font-extrabold text-base-content">
-              212 makers are already shipping faster!
+              865 parents enjoying stress-free baby travel!
             </h2>
           </div>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-base-content/80">
             Don&apos;t take our word for it. Here&apos;s what they have to say
-            about ShipFast.
+            about us.
           </p>
         </div>
 

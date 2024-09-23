@@ -1,42 +1,602 @@
 [
   {
     "id": 1,
-    "title": "Portable Travel Crib",
-    "description": "Lightweight and easy to set up, perfect for travel with infants and toddlers.",
-    "price": 149.99,
-    "amazonLink": "https://www.amazon.com/example-travel-crib",
-    "tags": ["weekend", "week", "twoWeeks", "hotel", "apartment", "newborn", "infant", "toddler"]
+    "title": "Ergobaby Omni 360 Baby Carrier",
+    "description": "A versatile, hands-free carrier that keeps your baby close and comfortable during travel.",
+    "price": 179.00,
+    "amazonLink": "https://www.amazon.com/dp/B07NNTTSPN",
+    "tags": ["weekend", "week", "twoWeeks", "airplane", "city", "newborn", "infant", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/41U1JGxk5EL._AC_.jpg",
+    "category": "Baby Carriers"
   },
   {
     "id": 2,
-    "title": "Baby Beach Tent",
-    "description": "UV protection tent for beach trips with babies and toddlers.",
-    "price": 39.99,
-    "amazonLink": "https://www.amazon.com/example-beach-tent",
-    "tags": ["beach", "newborn", "infant", "toddler"]
+    "title": "Guava Family Lotus Travel Crib",
+    "description": "A lightweight, easy-to-set-up travel crib with a backpack carrying case, perfect for any destination.",
+    "price": 229.95,
+    "amazonLink": "https://www.amazon.com/dp/B00AKKDSNG",
+    "tags": ["weekend", "week", "twoWeeks", "hotel", "apartment", "newborn", "infant", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/71InJ4Em6XL._AC_SL1500_.jpg",
+    "category": "Travel Cribs"
   },
   {
     "id": 3,
-    "title": "Compact Stroller",
-    "description": "Lightweight stroller perfect for city exploration and travel.",
+    "title": "Baby Trend EZ Ride 35 Travel System",
+    "description": "A convenient car seat and stroller combo for seamless transitions from car to strolls.",
     "price": 199.99,
-    "amazonLink": "https://www.amazon.com/example-compact-stroller",
-    "tags": ["city", "infant", "toddler", "plane", "train"]
+    "amazonLink": "https://www.amazon.com/dp/B016M68U58",
+    "tags": ["roadTrip", "car", "weekend", "infant", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/81J6LzkxGUL._AC_SL1500_.jpg",
+    "category": "Travel Systems"
   },
   {
     "id": 4,
-    "title": "Baby Carrier",
-    "description": "Ergonomic baby carrier for hands-free baby wearing during travels.",
-    "price": 89.99,
-    "amazonLink": "https://www.amazon.com/example-baby-carrier",
-    "tags": ["newborn", "infant", "city", "mountains"]
+    "title": "UPPAbaby MINU Stroller",
+    "description": "A compact, lightweight stroller that folds small, ideal for city breaks or air travel.",
+    "price": 449.99,
+    "amazonLink": "https://www.amazon.com/dp/B07DPSG3HK",
+    "tags": ["city", "weekend", "airplane", "train", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/71mHesO2c-L._AC_SL1500_.jpg",
+    "category": "Strollers"
   },
   {
     "id": 5,
-    "title": "Travel Bottle Warmer",
-    "description": "Portable bottle warmer for on-the-go feeding.",
+    "title": "Inglesina Fast Table Chair",
+    "description": "A portable high chair that easily attaches to tables for mealtimes anywhere.",
+    "price": 79.00,
+    "amazonLink": "https://www.amazon.com/dp/B00IOGIM9S",
+    "tags": ["weekend", "week", "twoWeeks", "hotel", "airbnb", "newborn", "infant", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/81yM4CUfOiL._AC_SL1500_.jpg",
+    "category": "Feeding"
+  },
+  {
+    "id": 6,
+    "title": "Skip Hop Duo Weekender Diaper Bag",
+    "description": "A spacious diaper bag that helps you organize all your baby's essentials for long trips.",
+    "price": 110.00,
+    "amazonLink": "https://www.amazon.com/dp/B075L9KQG7",
+    "tags": ["weekend", "week", "twoWeeks", "car", "airplane", "newborn", "infant", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/81nFNvFcd0L._AC_SL1500_.jpg",
+    "category": "Diaper Bags"
+  },
+  {
+    "id": 7,
+    "title": "Philips Avent Natural Baby Bottles",
+    "description": "Easy-to-use baby bottles designed for a natural latch and comfortable feeding during travel.",
+    "price": 24.12,
+    "amazonLink": "https://www.amazon.com/dp/B07YN4H4QF",
+    "tags": ["weekend", "week", "twoWeeks", "feeding", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/71uWVRb-Z0L._AC_SL1500_.jpg",
+    "category": "Feeding"
+  },
+  {
+    "id": 8,
+    "title": "OXO Tot On-the-Go Wipes Dispenser",
+    "description": "A compact wipes dispenser to keep baby clean on the go, perfect for quick diaper changes.",
+    "price": 9.99,
+    "amazonLink": "https://www.amazon.com/dp/B0050GD2R4",
+    "tags": ["weekend", "week", "twoWeeks", "hygiene", "diaper", "newborn", "infant", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/51y5qD3MkWL._AC_SL1500_.jpg",
+    "category": "Diapering"
+  },
+  {
+    "id": 9,
+    "title": "Foogo Thermos Insulated Food Jar",
+    "description": "Keeps your baby's food warm or cold for hours during travel, ensuring fresh meals anywhere.",
+    "price": 14.99,
+    "amazonLink": "https://www.amazon.com/dp/B0017IHRX0",
+    "tags": ["weekend", "week", "feeding", "hotWeather", "coldWeather", "newborn", "infant", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/71nxGdNaN8L._AC_SL1500_.jpg",
+    "category": "Feeding"
+  },
+  {
+    "id": 10,
+    "title": "Dapple Baby Bottle and Dish Liquid",
+    "description": "A travel-sized cleaning solution specifically designed for baby bottles and dishes.",
+    "price": 5.99,
+    "amazonLink": "https://www.amazon.com/dp/B07F6JZJND",
+    "tags": ["weekend", "week", "feeding", "hygiene", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/81MLrkOMdFL._AC_SL1500_.jpg",
+    "category": "Cleaning"
+  },
+  {
+    "id": 11,
+    "title": "Baby Bjorn Travel Crib Light",
+    "description": "A portable, easy-to-assemble crib perfect for ensuring baby sleeps well on the go.",
+    "price": 299.99,
+    "amazonLink": "https://www.amazon.com/dp/B005CNEQK0",
+    "tags": ["weekend", "week", "twoWeeks", "hotel", "apartment", "newborn", "infant", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/71V2aIHYN+L._AC_SL1500_.jpg",
+    "category": "Travel Cribs"
+  },
+  {
+    "id": 12,
+    "title": "CoziGo Bassinet and Stroller Cover",
+    "description": "A multi-functional cover for strollers and airline bassinets, providing sun protection and privacy for naps.",
+    "price": 99.95,
+    "amazonLink": "https://www.amazon.com/dp/B06XRV5NH2",
+    "tags": ["weekend", "week", "twoWeeks", "beach", "city", "airplane", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/81ZlMpsKr2L._AC_SL1500_.jpg",
+    "category": "Travel Accessories"
+  },
+  {
+    "id": 13,
+    "title": "Woolino 4 Season Baby Sleep Bag",
+    "description": "An all-season sleep sack that keeps your baby comfortable in a wide range of temperatures.",
+    "price": 99.99,
+    "amazonLink": "https://www.amazon.com/dp/B013KFQD1C",
+    "tags": ["weekend", "week", "twoWeeks", "sleep", "hotWeather", "coldWeather", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/71tw0MpjN4L._AC_SL1500_.jpg",
+    "category": "Sleep"
+  },
+  {
+    "id": 14,
+    "title": "Marpac Yogasleep Portable White Noise Machine",
+    "description": "A small, travel-friendly white noise machine to ensure your baby sleeps well anywhere.",
+    "price": 26.99,
+    "amazonLink": "https://www.amazon.com/dp/B01D50RYSC",
+    "tags": ["weekend", "week", "twoWeeks", "hotel", "airbnb", "sleep", "newborn", "infant", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/71M8ieUUU6L._AC_SL1500_.jpg",
+    "category": "Sleep"
+  },
+  {
+    "id": 15,
+    "title": "Inflatable Travel Duck Tub",
+    "description": "An inflatable bathtub that packs small, perfect for bathing babies on the go.",
+    "price": 13.32,
+    "amazonLink": "https://www.amazon.com/dp/B001QKDI48",
+    "tags": ["weekend", "week", "hotel", "airbnb", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/61tF-UdjBsL._AC_SL1500_.jpg",
+    "category": "Bathing"
+  },
+  {
+    "id": 16,
+    "title": "Camilia Teething Relief Drops",
+    "description": "Natural teething relief drops that help soothe babies during travel.",
+    "price": 8.99,
+    "amazonLink": "https://www.amazon.com/dp/B00HYR1E7C",
+    "tags": ["weekend", "week", "twoWeeks", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/81yTCeIX5kL._AC_SL1500_.jpg",
+    "category": "Health"
+  },
+  {
+    "id": 17,
+    "title": "General Medi Mini First Aid Kit",
+    "description": "A compact first aid kit with essentials for any travel situation.",
+    "price": 13.88,
+    "amazonLink": "https://www.amazon.com/dp/B01M1GHM0M",
+    "tags": ["weekend", "week", "twoWeeks", "car", "airplane", "toddler", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/61IzITEm0cL._AC_SL1000_.jpg",
+    "category": "Health"
+  },
+  {
+    "id": 18,
+    "title": "Babyganics Alcohol-Free Hand Sanitizer",
+    "description": "Baby-safe, alcohol-free hand sanitizer for maintaining hygiene on the go.",
+    "price": 9.99,
+    "amazonLink": "https://www.amazon.com/dp/B004AEBY3I",
+    "tags": ["weekend", "week", "hygiene", "airplane", "car", "newborn", "infant", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/71zRtXnGN1L._AC_SL1500_.jpg",
+    "category": "Health"
+  },
+  {
+    "id": 19,
+    "title": "Owlet Smart Sock Baby Monitor",
+    "description": "A baby monitor that tracks your baby's heart rate and oxygen levels during sleep.",
+    "price": 299.99,
+    "amazonLink": "https://www.amazon.com/dp/B07R5KDVLK",
+    "tags": ["weekend", "week", "twoWeeks", "hotel", "airbnb", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/71IBAsBPEWL._AC_SL1500_.jpg",
+    "category": "Health"
+  },
+  {
+    "id": 20,
+    "title": "Skip Hop Stroll & Go Cool Touch Stroller Liner",
+    "description": "A cooling stroller liner designed to keep your baby comfortable in warm weather.",
+    "price": 23.99,
+    "amazonLink": "https://www.amazon.com/dp/B01M3UKZIF",
+    "tags": ["weekend", "week", "twoWeeks", "hotWeather", "city", "beach", "toddler", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/51+YrAOvhsL._AC_SL1200_.jpg",
+    "category": "Strollers"
+  },
+  {
+    "id": 21,
+    "title": "Brica Seat Guardian Car Seat Protector",
+    "description": "Protects your car's seats from spills and wear during road trips with baby.",
+    "price": 34.99,
+    "amazonLink": "https://www.amazon.com/dp/B006ZISVSO",
+    "tags": ["weekend", "week", "roadTrip", "car", "toddler", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/71SWSdhsGzL._AC_SL1500_.jpg",
+    "category": "Car Accessories"
+  },
+  {
+    "id": 22,
+    "title": "Skip Hop Stroller Organizer",
+    "description": "A convenient stroller organizer for keeping baby essentials within easy reach.",
+    "price": 24.99,
+    "amazonLink": "https://www.amazon.com/dp/B006YVZYD2",
+    "tags": ["weekend", "week", "city", "beach", "stroller", "toddler", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/81CEZmLCA9L._AC_SL1500_.jpg",
+    "category": "Strollers"
+  },
+  {
+    "id": 23,
+    "title": "Sophie la Girafe Teether",
+    "description": "A beloved, travel-friendly teething toy that babies love.",
+    "price": 24.99,
+    "amazonLink": "https://www.amazon.com/dp/B000IDSLOG",
+    "tags": ["weekend", "week", "twoWeeks", "feeding", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/81JCEClvqQL._AC_SL1500_.jpg",
+    "category": "Toys"
+  },
+  {
+    "id": 24,
+    "title": "Fisher-Price Travel Doodler",
+    "description": "A compact, mess-free drawing board perfect for entertaining toddlers on long trips.",
+    "price": 9.99,
+    "amazonLink": "https://www.amazon.com/dp/B002ZG977G",
+    "tags": ["weekend", "week", "twoWeeks", "roadTrip", "airplane", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/81RVdXoBX-L._AC_SL1500_.jpg",
+    "category": "Toys"
+  },
+  {
+    "id": 25,
+    "title": "VTech Baby Walker",
+    "description": "A lightweight walker that's easy to carry and provides entertainment for babies during travel.",
+    "price": 34.99,
+    "amazonLink": "https://www.amazon.com/dp/B000NZQ010",
+    "tags": ["week", "twoWeeks", "roadTrip", "hotel", "airbnb", "infant", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/91z8l4ZkaBL._AC_SL1500_.jpg",
+    "category": "Toys"
+  },
+  {
+    "id": 26,
+    "title": "Skip Hop Bandana Buddies Baby Toy",
+    "description": "A multi-sensory travel-friendly toy that entertains babies on the go.",
+    "price": 14.99,
+    "amazonLink": "https://www.amazon.com/dp/B00V62CKYG",
+    "tags": ["weekend", "week", "twoWeeks", "roadTrip", "airplane", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/91bdHrRco1L._AC_SL1500_.jpg",
+    "category": "Toys"
+  },
+  {
+    "id": 27,
+    "title": "Bright Starts Oball Classic Ball",
+    "description": "A lightweight and easy-to-grip ball that babies love to play with while traveling.",
+    "price": 6.99,
+    "amazonLink": "https://www.amazon.com/dp/B01EGX5XJ2",
+    "tags": ["weekend", "week", "twoWeeks", "newborn", "infant", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/81NVho+Hv5L._AC_SL1500_.jpg",
+    "category": "Toys"
+  },
+  {
+    "id": 28,
+    "title": "Baby Banz Earmuffs",
+    "description": "Noise-canceling earmuffs that protect babies from loud noises during travel.",
     "price": 29.99,
-    "amazonLink": "https://www.amazon.com/example-bottle-warmer",
-    "tags": ["newborn", "infant", "car", "plane", "train"]
+    "amazonLink": "https://www.amazon.com/dp/B007BEHSDU",
+    "tags": ["weekend", "week", "twoWeeks", "airplane", "city", "newborn", "infant", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/71Npd-Pv8mL._AC_SL1500_.jpg",
+    "category": "Health"
+  },
+  {
+    "id": 29,
+    "title": "Steribottle Disposable Baby Bottles",
+    "description": "Pre-sterilized, disposable bottles that are convenient for travel without the hassle of cleaning.",
+    "price": 19.99,
+    "amazonLink": "https://www.amazon.com/dp/B0084U6YZ6",
+    "tags": ["weekend", "week", "twoWeeks", "airplane", "feeding", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/71SHFBJJSvL._AC_SL1500_.jpg",
+    "category": "Feeding"
+  },
+  {
+    "id": 30,
+    "title": "Baby Bum Mineral Sunscreen Stick",
+    "description": "A convenient, travel-sized sunscreen stick for keeping your baby safe in the sun.",
+    "price": 11.33,
+    "amazonLink": "https://www.amazon.com/dp/B01N9QWDXU",
+    "tags": ["weekend", "week", "beach", "sunProtection", "infant", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/81gV2efNDyL._AC_SL1500_.jpg",
+    "category": "Health"
+  },
+  {
+    "id": 31,
+    "title": "Cozy Cover Infant Car Seat Cover",
+    "description": "Keeps your baby warm and cozy during cold-weather travel.",
+    "price": 29.99,
+    "amazonLink": "https://www.amazon.com/dp/B00W8YZ93E",
+    "tags": ["weekend", "week", "coldWeather", "car", "roadTrip", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/71t-K4nDmjL._AC_SL1500_.jpg",
+    "category": "Car Accessories"
+  },
+  {
+    "id": 32,
+    "title": "JJ Cole Outdoor Blanket",
+    "description": "A waterproof and easy-to-fold blanket for outdoor activities during travel.",
+    "price": 39.95,
+    "amazonLink": "https://www.amazon.com/dp/B00PBW8TUI",
+    "tags": ["weekend", "week", "beach", "outdoors", "infant", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/61HqgqZzD-L._AC_SL1200_.jpg",
+    "category": "Travel Accessories"
+  },
+  {
+    "id": 33,
+    "title": "Puj Flyte Compact Bathtub",
+    "description": "A foldable bathtub that fits in most sinks, perfect for small spaces during travel.",
+    "price": 34.99,
+    "amazonLink": "https://www.amazon.com/dp/B00X99DTPY",
+    "tags": ["weekend", "week", "hotel", "airbnb", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/71mJ39JxEoL._AC_SL1500_.jpg",
+    "category": "Bathing"
+  },
+  {
+    "id": 34,
+    "title": "Baby Bjorn Soft Bibs",
+    "description": "Durable, easy-to-clean bibs perfect for mealtime during travel.",
+    "price": 17.99,
+    "amazonLink": "https://www.amazon.com/dp/B000067EH7",
+    "tags": ["weekend", "week", "feeding", "hygiene", "infant", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/71pqM-JokPL._AC_SL1500_.jpg",
+    "category": "Feeding"
+  },
+  {
+    "id": 35,
+    "title": "Stokke Flexi Bath",
+    "description": "A foldable baby bathtub that's perfect for traveling families with limited space.",
+    "price": 49.99,
+    "amazonLink": "https://www.amazon.com/dp/B00JYHIXDM",
+    "tags": ["weekend", "week", "hotel", "airbnb", "newborn", "infant", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/81JdBSQKJML._AC_SL1500_.jpg",
+    "category": "Bathing"
+  },
+  {
+    "id": 36,
+    "title": "Potette Plus Travel Potty",
+    "description": "A portable potty seat that folds up for easy storage and use on the go.",
+    "price": 19.99,
+    "amazonLink": "https://www.amazon.com/dp/B003BTS7X6",
+    "tags": ["weekend", "week", "twoWeeks", "roadTrip", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/71jl-FDGBML._AC_SL1500_.jpg",
+    "category": "Diapering"
+  },
+  {
+    "id": 37,
+    "title": "NoseFrida Snotsucker",
+    "description": "A travel-friendly nasal aspirator to help clear baby's stuffy nose during flights or road trips.",
+    "price": 16.99,
+    "amazonLink": "https://www.amazon.com/dp/B00RPJQ5PO",
+    "tags": ["weekend", "week", "airplane", "roadTrip", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/61g4mDCCzmL._AC_SL1500_.jpg",
+    "category": "Health"
+  },
+  {
+    "id": 38,
+    "title": "Tommee Tippee Portable Travel Bottle Warmer",
+    "description": "An insulated bottle warmer that's perfect for keeping milk warm on the go.",
+    "price": 14.99,
+    "amazonLink": "https://www.amazon.com/dp/B0013Y2XXY",
+    "tags": ["weekend", "week", "feeding", "roadTrip", "infant", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/71sfLgXXrEL._AC_SL1500_.jpg",
+    "category": "Feeding"
+  },
+  {
+    "id": 39,
+    "title": "Boon Trip Travel Drying Rack",
+    "description": "A compact drying rack that's perfect for cleaning baby bottles and accessories while traveling.",
+    "price": 13.99,
+    "amazonLink": "https://www.amazon.com/dp/B007VBXKG2",
+    "tags": ["weekend", "week", "feeding", "hygiene", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/61Gn12C9FaL._AC_SL1500_.jpg",
+    "category": "Feeding"
+  },
+  {
+    "id": 40,
+    "title": "Munchkin Arm and Hammer Diaper Bag Dispenser",
+    "description": "A portable diaper bag dispenser that's perfect for managing dirty diapers on the go.",
+    "price": 5.99,
+    "amazonLink": "https://www.amazon.com/dp/B001QKDI48",
+    "tags": ["weekend", "week", "twoWeeks", "diaper", "hygiene", "newborn", "infant", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/71aSbIB8DOL._AC_SL1500_.jpg",
+    "category": "Diapering"
+  },
+  {
+    "id": 41,
+    "title": "Hiccapop Inflatable Bed Rail",
+    "description": "A portable, inflatable bed rail to prevent toddlers from rolling off unfamiliar beds.",
+    "price": 29.99,
+    "amazonLink": "https://www.amazon.com/dp/B01DTBFB5U",
+    "tags": ["weekend", "week", "hotel", "airbnb", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/61lV9UVPHcL._AC_SL1500_.jpg",
+    "category": "Sleep"
+  },
+  {
+    "id": 42,
+    "title": "SlumberPod Privacy Sleep Tent",
+    "description": "A blackout tent that provides a private and dark sleep space for babies and toddlers.",
+    "price": 174.99,
+    "amazonLink": "https://www.amazon.com/dp/B07S6F9F3V",
+    "tags": ["weekend", "week", "hotel", "airbnb", "sleep", "newborn", "infant", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/71bLU5yPX+L._AC_SL1500_.jpg",
+    "category": "Sleep"
+  },
+  {
+    "id": 43,
+    "title": "Skip Hop Travel Crib Sheet Set",
+    "description": "Soft, lightweight crib sheets designed for portable travel cribs.",
+    "price": 22.00,
+    "amazonLink": "https://www.amazon.com/dp/B07Z9N6K82",
+    "tags": ["weekend", "week", "twoWeeks", "hotel", "airbnb", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/51h9iW1oDoL._AC_SL1000_.jpg",
+    "category": "Sleep"
+  },
+  {
+    "id": 44,
+    "title": "BABYBJORN Bouncer",
+    "description": "A foldable, portable baby bouncer that provides comfort and entertainment on the go.",
+    "price": 199.99,
+    "amazonLink": "https://www.amazon.com/dp/B00BQYVOKY",
+    "tags": ["weekend", "week", "twoWeeks", "hotel", "airbnb", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/61HLHG8DKRL._AC_SL1000_.jpg",
+    "category": "Travel Accessories"
+  },
+  {
+    "id": 45,
+    "title": "Lulla Doll Sleep Companion",
+    "description": "A comforting doll that mimics a parent's heartbeat to soothe babies during travel.",
+    "price": 49.99,
+    "amazonLink": "https://www.amazon.com/dp/B019W9YV1S",
+    "tags": ["weekend", "week", "twoWeeks", "sleep", "hotel", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/51bZjI++LrL._AC_SL1000_.jpg",
+    "category": "Sleep"
+  },
+  {
+    "id": 46,
+    "title": "Munchkin Miracle 360 Sippy Cup",
+    "description": "A spill-proof sippy cup designed to help your baby drink easily while on the move.",
+    "price": 7.99,
+    "amazonLink": "https://www.amazon.com/dp/B00MRZIFD0",
+    "tags": ["weekend", "week", "feeding", "toddler", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/81dJG2bZ4-L._AC_SL1500_.jpg",
+    "category": "Feeding"
+  },
+  {
+    "id": 47,
+    "title": "Comotomo Baby Bottle Bundle",
+    "description": "Soft, squeezable baby bottles designed to mimic breastfeeding for easy feeding during travel.",
+    "price": 22.99,
+    "amazonLink": "https://www.amazon.com/dp/B071RZTW4Z",
+    "tags": ["weekend", "week", "feeding", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/61DohKULecL._AC_SL1500_.jpg",
+    "category": "Feeding"
+  },
+  {
+    "id": 48,
+    "title": "Baby K'tan Original Baby Wrap Carrier",
+    "description": "A comfortable baby wrap that makes hands-free travel easier for parents.",
+    "price": 49.95,
+    "amazonLink": "https://www.amazon.com/dp/B002P3IX92",
+    "tags": ["weekend", "week", "airplane", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/71h3Q8KowfL._AC_SL1500_.jpg",
+    "category": "Baby Carriers"
+  },
+  {
+    "id": 49,
+    "title": "Boba Air Baby Carrier",
+    "description": "An ultra-lightweight, foldable baby carrier that is easy to pack for travel.",
+    "price": 69.95,
+    "amazonLink": "https://www.amazon.com/dp/B00JIBN33M",
+    "tags": ["weekend", "week", "airplane", "roadTrip", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/81dK5eg84KL._AC_SL1500_.jpg",
+    "category": "Baby Carriers"
+  },
+  {
+    "id": 50,
+    "title": "Hiccapop Travel Booster Seat",
+    "description": "A compact, foldable booster seat that's perfect for mealtime while traveling.",
+    "price": 34.99,
+    "amazonLink": "https://www.amazon.com/dp/B01FESQBS6",
+    "tags": ["weekend", "week", "twoWeeks", "feeding", "toddler", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/61a6S68XPxL._AC_SL1500_.jpg",
+    "category": "Feeding"
+  },
+  {
+    "id": 51,
+    "title": "Tommee Tippee Portable Bibs",
+    "description": "Reusable, easy-to-clean bibs that are ideal for mess-free feeding during travel.",
+    "price": 10.99,
+    "amazonLink": "https://www.amazon.com/dp/B00O3GJJ6C",
+    "tags": ["weekend", "week", "twoWeeks", "feeding", "hygiene", "infant", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/61a6cvD+afL._AC_SL1500_.jpg",
+    "category": "Feeding"
+  },
+  {
+    "id": 52,
+    "title": "Ubbi On-the-Go Wipes Dispenser",
+    "description": "A compact wipes dispenser for easy access to baby wipes during travel.",
+    "price": 8.99,
+    "amazonLink": "https://www.amazon.com/dp/B01AKNHEH0",
+    "tags": ["weekend", "week", "twoWeeks", "hygiene", "newborn", "infant", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/61xHb1-Y7KL._AC_SL1500_.jpg",
+    "category": "Diapering"
+  },
+  {
+    "id": 53,
+    "title": "Philips Avent Powder Formula Dispenser",
+    "description": "A convenient, travel-friendly container for holding baby formula and snacks.",
+    "price": 7.99,
+    "amazonLink": "https://www.amazon.com/dp/B00BJOGNK2",
+    "tags": ["weekend", "week", "feeding", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/81ZAzQsTBJL._AC_SL1500_.jpg",
+    "category": "Feeding"
+  },
+  {
+    "id": 54,
+    "title": "Boon Squirt Baby Food Dispensing Spoon",
+    "description": "A spoon that dispenses baby food directly, making feeding on the go simple and mess-free.",
+    "price": 9.99,
+    "amazonLink": "https://www.amazon.com/dp/B004C0344G",
+    "tags": ["weekend", "week", "feeding", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/71uORW3CUeL._AC_SL1500_.jpg",
+    "category": "Feeding"
+  },
+  {
+    "id": 55,
+    "title": "OXO Tot Travel Size Drying Rack",
+    "description": "A compact drying rack that's perfect for cleaning baby bottles and utensils on the go.",
+    "price": 14.99,
+    "amazonLink": "https://www.amazon.com/dp/B006MHVK7C",
+    "tags": ["weekend", "week", "feeding", "hygiene", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/61xFYkFY7HL._AC_SL1500_.jpg",
+    "category": "Feeding"
+  },
+  {
+    "id": 56,
+    "title": "Fisher-Price Stow 'n Go Bassinet",
+    "description": "A portable bassinet that folds compactly, ideal for baby's sleep during travel.",
+    "price": 99.99,
+    "amazonLink": "https://www.amazon.com/dp/B01N0JAN8Q",
+    "tags": ["weekend", "week", "sleep", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/71xv5QMX+yL._AC_SL1500_.jpg",
+    "category": "Sleep"
+  },
+  {
+    "id": 57,
+    "title": "Skip Hop Grab & Go Wet/Dry Bag",
+    "description": "A wet/dry bag for separating soiled clothes or diapers during travel.",
+    "price": 14.99,
+    "amazonLink": "https://www.amazon.com/dp/B005LVNSLC",
+    "tags": ["weekend", "week", "twoWeeks", "diaper", "hygiene", "newborn", "infant", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/81l7o8KnLdL._AC_SL1500_.jpg",
+    "category": "Diapering"
+  },
+  {
+    "id": 58,
+    "title": "Lamaze Peek-A-Boo Forest Soft Book",
+    "description": "A lightweight, travel-friendly soft book to keep babies entertained on the go.",
+    "price": 12.99,
+    "amazonLink": "https://www.amazon.com/dp/B0043D28B4",
+    "tags": ["weekend", "week", "entertainment", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/81sgFcrz1IL._AC_SL1500_.jpg",
+    "category": "Toys"
+  },
+  {
+    "id": 59,
+    "title": "Summer Infant Pop N' Jump Portable Activity Center",
+    "description": "A portable activity center that provides entertainment and exercise for babies.",
+    "price": 89.99,
+    "amazonLink": "https://www.amazon.com/dp/B016Q0ZICQ",
+    "tags": ["weekend", "week", "hotel", "entertainment", "newborn", "infant"],
+    "imageLink": "https://m.media-amazon.com/images/I/81NbeDj4XAL._AC_SL1500_.jpg",
+    "category": "Toys"
+  },
+  {
+    "id": 60,
+    "title": "Brica Baby In-Sight Car Mirror",
+    "description": "A wide-angle baby car mirror to keep an eye on your baby while driving.",
+    "price": 15.99,
+    "amazonLink": "https://www.amazon.com/dp/B00B7M7BKW",
+    "tags": ["weekend", "week", "roadTrip", "car", "safety", "newborn", "infant", "toddler"],
+    "imageLink": "https://m.media-amazon.com/images/I/81vUoIVx5TL._AC_SL1500_.jpg",
+    "category": "Car Accessories"
   }
 ]
