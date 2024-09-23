@@ -197,7 +197,7 @@ export const articles = [
             <li className={styles.li}><strong>Spacious and Organized Compartments:</strong> Look for multiple compartments designed for diapers, bottles, and clothes. Bags like the <strong>baby jogger travel bag</strong> are great for keeping items separate and easily accessible.</li>
             <li className={styles.li}><strong>Easy-to-Clean Material:</strong> Opt for water-resistant, wipeable materials to handle inevitable messes. Many bags also offer machine-washable inserts for added convenience.</li>
             <li className={styles.li}><strong>Comfortable Straps and Back Support:</strong> Make sure the bag has padded, adjustable straps to prevent shoulder and back strain during long trips.</li>
-            <li className={styles.li}><strong>Lightweight but Durable Design:</strong> Choose a bag that’s both lightweight and durable, so you can pack everything without carrying unnecessary weight.</li>
+            <li className={styles.li}><strong>Lightweight but Durable Design:</strong> Choose a bag that&apos;s both lightweight and durable, so you can pack everything without carrying unnecessary weight.</li>
             <li className={styles.li}><strong>Built-in Changing Pad:</strong> Many top-rated travel bags come with a fold-out changing pad, making diaper changes on the go a breeze.</li>
             <li className={styles.li}><strong>TSA-Friendly Features:</strong> If flying, select a <strong>baby travel bag for plane</strong> travel with easy-access outer pockets and compartments for quick security checks.</li>
           </ul>
@@ -211,7 +211,7 @@ export const articles = [
           <ul className={styles.ul}>
             <li className={styles.li}><strong>Skip Hop Forma Diaper Backpack:</strong> Spacious, lightweight, and featuring multiple pockets, this is our go-to bag for all trips.</li>
             <li className={styles.li}><strong>J.L. Childress Ultimate Backpack:</strong> A great choice for flying, this bag is TSA-friendly and offers padded compartments for fragile items.</li>
-            <li className={styles.li}><strong>Baby Jogger City Select Carry Bag:</strong> Perfect for stroller use, it’s hands-free, durable, and ideal for on-the-go parents.</li>
+            <li className={styles.li}><strong>Baby Jogger City Select Carry Bag:</strong> Perfect for stroller use, it&apos;s hands-free, durable, and ideal for on-the-go parents.</li>
             <li className={styles.li}><strong>Baby Brezza Formula Dispenser Bag:</strong> Great for feeding on the go, it keeps formula and bottles organized and fresh.</li>
           </ul>
         </section>
@@ -219,7 +219,7 @@ export const articles = [
         <section>
           <h3 className={styles.h3}>How to Pack Your Baby Travel Bag Efficiently</h3>
           <p className={styles.p}>
-            Once you&apos;ve chosen the perfect baby travel bag, packing it efficiently is key to ensuring you have everything you need for a stress-free trip. Here's a quick checklist and some packing tips:
+            Once you&apos;ve chosen the perfect baby travel bag, packing it efficiently is key to ensuring you have everything you need for a stress-free trip. Here&apos;s a quick checklist and some packing tips:
           </p>
           <h4 className={styles.h4}>Essentials Checklist:</h4>
           <ul className={styles.ul}>
