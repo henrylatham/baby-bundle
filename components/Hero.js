@@ -1,13 +1,11 @@
 "use client";
 
 import Image from "next/image";
-import { useRouter } from 'next/navigation';
 import TestimonialsAvatars from "./TestimonialsAvatars";
 import ButtonInternal from '../components/ButtonInternal';
 import HeroImg from "../public/home/hero.jpg"
 
 const Hero = () => {
-  const router = useRouter();
 
   return (
     <section className="max-w-7xl mx-auto bg-base-100 flex flex-col lg:flex-row items-center justify-center gap-16 lg:gap-20 px-8 py-8 lg:py-20">

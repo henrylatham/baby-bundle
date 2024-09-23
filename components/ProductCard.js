@@ -20,7 +20,7 @@ const categoryIcons = {
   'Car Accessories': FaCar,
 }
 
-export default function ProductCard({ title, description, price, category, imageUrl }) {
+export default function ProductCard({ title, description, price, category }) {
   const IconComponent = categoryIcons[category] || FaBaby;
 
   return (
