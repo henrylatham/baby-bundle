@@ -1,11 +1,13 @@
 import { Suspense } from "react";
 import HeaderBlog from "./_assets/components/HeaderBlog";
 import Footer from "@/components/Footer";
+import TopBanner from "@/components/TopBanner";
 
 export default async function LayoutBlog({ children }) {
   return (
     <div>
       <Suspense>
+        <TopBanner /> 
         <HeaderBlog />
       </Suspense>
 

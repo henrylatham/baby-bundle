@@ -8,7 +8,7 @@ import Image from "next/image";
 import logo from "@/app/icon.png";
 import config from "@/config";
 import { categories } from "../content";
-import ButtonSignin from "@/components/ButtonSignin";
+// import ButtonSignin from "@/components/ButtonSignin";
 
 const links = [
   {
@@ -17,9 +17,9 @@ const links = [
   },
 ];
 
-const cta = (
-  <ButtonSignin text="Prevent disputes" extraStyle="btn-primary md:btn-sm" />
-);
+// const cta = (
+//   // <ButtonSignin text="Prevent disputes" extraStyle="btn-primary md:btn-sm" />
+// );
 
 const ButtonPopoverCategories = () => {
   return (
@@ -211,7 +211,7 @@ const HeaderBlog = () => {
         </div>
 
         {/* CTA on large screens */}
-        <div className="hidden lg:flex lg:justify-end lg:flex-1">{cta}</div>
+        {/* <div className="hidden lg:flex lg:justify-end lg:flex-1">{cta}</div> */}
       </nav>
 
       {/* Mobile menu, show/hide based on menu state. */}
@@ -279,7 +279,7 @@ const HeaderBlog = () => {
             </div>
             <div className="divider"></div>
             {/* Your CTA on small screens */}
-            <div className="flex flex-col">{cta}</div>
+            {/* <div className="flex flex-col">{cta}</div> */}
           </div>
         </div>
       </div>

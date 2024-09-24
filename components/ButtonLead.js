@@ -4,11 +4,7 @@ import { useState, useRef } from "react";
 import { toast } from "react-hot-toast";
 import apiClient from "@/libs/api";
 
-// This component is used to collect the emails from the landing page
-// You'd use this if your product isn't ready yet or you want to collect leads
-// For instance: A popup to send a freebie, joining a waitlist, etc.
-// It calls the /api/lead/route.js route and store a Lead document in the database
-const ButtonLead = ({ extraStyle }) => {
+const ButtonLead = ({ extraStyle, variant = "row" }) => {
   const inputRef = useRef(null);
   const [email, setEmail] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -23,46 +19,56 @@ const ButtonLead = ({ extraStyle }) => {
 
       toast.success("Thanks for joining the waitlist!");
 
-      // just remove the focus on the input
       inputRef.current.blur();
       setEmail("");
       setIsDisabled(true);
     } catch (error) {
       console.log(error);
+      toast.error("An error occurred. Please try again.");
     } finally {
       setIsLoading(false);
     }
   };
+
+  const formClasses = `w-full ${
+    variant === "row" ? "flex items-center space-x-2" : "max-w-xs space-y-3"
+  } ${extraStyle || ""}`;
+
+  const inputClasses = `input input-bordered placeholder:opacity-60 ${
+    variant === "row" ? "flex-grow w-[calc(100%-130px)]" : "w-full"
+  }`;
+
+  const buttonClasses = `btn btn-primary ${
+    variant === "row" ? "whitespace-nowrap" : "w-full"
+  }`;
+
   return (
-    <form
-      className={`w-full max-w-xs space-y-3 ${extraStyle ? extraStyle : ""}`}
-      onSubmit={handleSubmit}
-    >
+    <form className={formClasses} onSubmit={handleSubmit}>
       <input
         required
         type="email"
         value={email}
         ref={inputRef}
         autoComplete="email"
-        placeholder="tom@cruise.com"
-        className="input input-bordered w-full placeholder:opacity-60"
+        placeholder="mum@tired.com"
+        className={inputClasses}
         onChange={(e) => setEmail(e.target.value)}
       />
 
       <button
-        className="btn btn-primary btn-block"
+        className={buttonClasses}
         type="submit"
-        disabled={isDisabled}
+        disabled={isDisabled || isLoading}
       >
-        Join waitlist
+        Get Weekly Deals
         {isLoading ? (
-          <span className="loading loading-spinner loading-xs"></span>
+          <span className="loading loading-spinner loading-xs ml-2"></span>
         ) : (
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
             fill="currentColor"
-            className="w-5 h-5"
+            className="w-5 h-5 ml-2"
           >
             <path
               fillRule="evenodd"

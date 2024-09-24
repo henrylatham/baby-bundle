@@ -2,7 +2,7 @@ import themes from "daisyui/src/theming/themes";
 
 const config = {
   // REQUIRED
-  appName: "Baby Travel Bag",
+  appName: "Baby Travel Tips",
   // REQUIRED: a short description of your app for SEO tags (can be overwritten)
   appDescription:
     "Travel with your baby stress-free: Discover the ultimate guide for first-time parents traveling with their baby:",
@@ -72,13 +72,13 @@ const config = {
   },
   mailgun: {
     // subdomain to use when sending emails, if you don't have a subdomain, just remove it. Highly recommended to have one (i.e. mg.yourdomain.com or mail.yourdomain.com)
-    subdomain: "mg",
+    subdomain: "mail",
     // REQUIRED — Email 'From' field to be used when sending magic login links
-    fromNoReply: `Baby Travel <noreply@mg.babytravel.us>`,
+    fromNoReply: `Baby Travel <noreply@mail.babytravel.us>`,
     // REQUIRED — Email 'From' field to be used when sending other emails, like abandoned carts, updates etc..
-    fromAdmin: `Henry at Baby Travel <henry@mg.babytravel.us>`,
+    fromAdmin: `Henry at Baby Travel <henry@mail.babytravel.us>`,
     // Email shown to customer if need support. Leave empty if not needed => if empty, set up Crisp above, otherwise you won't be able to offer customer support."
-    supportEmail: "henry@mg.babytravel.us",
+    supportEmail: "henry@mail.babytravel.us",
     // When someone replies to supportEmail sent by the app, forward it to the email below (otherwise it's lost). If you set supportEmail to empty, this will be ignored.
     forwardRepliesTo: "henrylatham5555@gmail.com",
   },

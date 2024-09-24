@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import PlausibleProvider from "next-plausible";
 import { getSEOTags } from "@/libs/seo";
+import GoogleAnalytics from './GoogleAnalytics.js'
 import ClientLayout from "@/components/LayoutClient";
 import config from "@/config";
 import "./globals.css";
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
       <body>
         {/* ClientLayout contains all the client wrappers (Crisp chat support, toast messages, tooltips, etc.) */}
         <ClientLayout>{children}</ClientLayout>
+        <GoogleAnalytics />
       </body>
     </html>
   );
