@@ -56,7 +56,7 @@ export default function SharedBundle() {
 
   return (
     <main className="container mx-auto px-4 py-8">
-      <h1 className="font-extrabold text-3xl lg:text-5xl tracking-tight text-center my-10">Your Baby's Travel Bundle</h1>
+      <h1 className="font-extrabold text-3xl lg:text-5xl tracking-tight text-center my-10">Your Baby&apos;s Travel Bundle</h1>
       <div className="mb-8 flex flex-col items-center">
         <p className="text-lg opacity-80 leading-relaxed my-2">Share your bundle with this link:</p>
         <div className="flex items-center gap-2 mb-10">
