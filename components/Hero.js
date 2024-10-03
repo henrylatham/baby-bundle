@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="flex flex-col gap-10 lg:gap-14 items-center justify-center text-center lg:text-left lg:items-start">
 
         <h1 className="font-extrabold text-4xl lg:text-6xl tracking-tight md:-mb-4">
-          Travel with your baby stress-free.
+          Travel with your baby <i>stress-free</i>
         </h1>
         <p className="text-lg opacity-80 leading-relaxed">
           Discover the ultimate guide for first-time parents traveling with their baby:

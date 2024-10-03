@@ -37,28 +37,12 @@
   },
   {
     "id": "transportation",
-    "text": "What's your main mode of transport?",
+    "text": "Are you flying?",
     "options": [
-      { "value": "car", "label": "Car" },
-      { "value": "airplane", "label": "Airplane" },
-      { "value": "train", "label": "Train" },
-      { "value": "bus", "label": "Bus" },
-      { "value": "boat", "label": "Boat" },
-      { "value": "multiple", "label": "Combination of multiple" }
+      { "value": "car, train", "label": "Yes" },
+      { "value": "airplane", "label": "No" }
     ],
-    "why": "Determines travel essentials, such as car seats, compact strollers, or airplane-friendly items (like noise-canceling ear protection)."
-  },
-  {
-    "id": "accommodation",
-    "text": "Where are you staying?",
-    "options": [
-      { "value": "hotel", "label": "Hotel" },
-      { "value": "rental", "label": "Airbnb/rental home" },
-      { "value": "resort", "label": "Resort" },
-      { "value": "camping", "label": "Camping" },
-      { "value": "familyFriends", "label": "Staying with family/friends" }
-    ],
-    "why": "Different accommodations may have varying amenities and space availability, affecting the choice of gear (e.g., portable crib for hotel stays vs. travel high chair for rentals)."
+    "why": "Determines whether we need to recommend plane-specific items."
   },
   {
     "id": "packingPreference",
@@ -69,53 +53,5 @@
       { "value": "inBetween", "label": "Somewhere in between (check-in small suitcase" }
     ],
     "why": "Guides the selection of multi-purpose and compact items for light packers or a more comprehensive set for those who prefer to be fully equipped."
-  },
-  {
-    "id": "travelConcerns",
-    "text": "What are your biggest concerns about traveling with your baby?",
-    "options": [
-      { "value": "sleep", "label": "Sleep schedule" },
-      { "value": "feeding", "label": "Feeding" },
-      { "value": "diapers", "label": "Diaper changes" },
-      { "value": "safety", "label": "Safety" },
-      { "value": "entertainment", "label": "Entertainment" },
-      { "value": "sunProtection", "label": "Sun protection" },
-      { "value": "hygiene", "label": "Hygiene" },
-      { "value": "other", "label": "Other" }
-    ],
-    "why": "Identifies specific areas of anxiety, allowing the platform to recommend products that address these concerns."
-  },
-  {
-    "id": "laundryAccess",
-    "text": "Will you be able to do laundry during your trip?",
-    "options": [
-      { "value": "yes", "label": "Yes" },
-      { "value": "no", "label": "No" },
-      { "value": "notSure", "label": "Not sure" }
-    ],
-    "why": "Determines the need for extra clothing, reusable vs. disposable products (e.g., diapers), and cleaning supplies."
-  },
-  {
-    "id": "climate",
-    "text": "What's the weather going to be like?",
-    "options": [
-      { "value": "hot", "label": "Hot weather" },
-      { "value": "cold", "label": "Cold weather" },
-      { "value": "wet", "label": "Rainy/wet conditions" },
-      { "value": "mixed", "label": "Mixed climates" }
-    ],
-    "why": "Climate-specific gear (e.g., sun hats, rain covers, thermal blankets) will be essential for ensuring the baby's comfort."
-  },
-  {
-    "id": "dietaryHealth",
-    "text": "Any dietary/health considerations for your baby?",
-    "options": [
-      { "value": "allergies", "label": "Food allergies" },
-      { "value": "specialFormula", "label": "Special formula" },
-      { "value": "breastfeeding", "label": "Breastfeeding" },
-      { "value": "medication", "label": "Medication" },
-      { "value": "none", "label": "None" }
-    ],
-    "why": "Ensures the inclusion of specialized feeding accessories, storage solutions, or medicine organizers relevant to the baby's dietary and health needs."
   }
 ]
