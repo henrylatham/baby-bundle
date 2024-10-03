@@ -9,10 +9,10 @@ import logo from "@/app/icon.png";
 import config from "@/config";
 
 const links = [
-  // {
-  //   href: "/#pricing",
-  //   label: "Pricing",
-  // },
+  {
+    href: "/blog",
+    label: "Essential Guides",
+  },
   {
     href: "/#testimonials",
     label: "Reviews",
@@ -25,9 +25,9 @@ const links = [
 
 const cta =     
   <ButtonInternal 
-    text="Get Started" 
+    text="Create Bundle" 
     className="btn btn-primary"
-    targetPage="/blog" 
+    targetPage="/bundle" 
   />;
 
 // A header with a logo on the left, links in the center (like Pricing, etc...), and a CTA (like Get Started or Login) on the right.

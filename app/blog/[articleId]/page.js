@@ -5,6 +5,7 @@ import BadgeCategory from "../_assets/components/BadgeCategory";
 import Avatar from "../_assets/components/Avatar";
 import { getSEOTags } from "@/libs/seo";
 import config from "@/config";
+import Hero from "@/components/Hero";
 
 export async function generateMetadata({ params }) {
   const article = articles.find((article) => article.slug === params.articleId);
@@ -96,7 +97,7 @@ export default async function Article({ params }) {
         </Link>
       </div>
 
-      <article>
+      <article className="mb-10">
         {/* HEADER WITH CATEGORIES AND DATE AND TITLE */}
         <section className="my-12 md:my-20 max-w-[800px]">
           <div className="flex items-center gap-4 mb-6">
@@ -167,6 +168,9 @@ export default async function Article({ params }) {
           </section>
         </div>
       </article>
+      <section>
+        <Hero variant="grey" />
+      </section>
     </>
   );
 }

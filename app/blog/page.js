@@ -1,6 +1,8 @@
 import { categories, articles } from "./_assets/content";
 import CardArticle from "./_assets/components/CardArticle";
 import CardCategory from "./_assets/components/CardCategory";
+import Hero from "@/components/Hero";
+
 
 import config from "@/config";
 import { getSEOTags } from "@/libs/seo";
@@ -47,6 +49,10 @@ export default async function Blog() {
             <CardCategory key={category.slug} category={category} tag="div" />
           ))}
         </div>
+      </section>
+
+      <section className="mt-20">
+        <Hero variant="grey" />
       </section>
     </>
   );

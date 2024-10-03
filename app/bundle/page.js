@@ -47,7 +47,7 @@ export default function Bundle() {
   return (
     <main className="container mx-auto px-4 py-8">
       <Toaster position="bottom-center" />
-      <h1 className="text-3xl font-bold mb-8 text-center">Your Baby&apos;s Travel Bundle</h1>
+      <h1 className="text-3xl font-bold mb-8 text-center">A Few Questions to Create the Perfect Travel Bundle For Your Baby:</h1>
       <QuestionForm questions={questions} onSubmit={handleAnswerSubmit} />
       {isLoading && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
