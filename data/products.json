@@ -38,7 +38,7 @@
     "description": "A compact, lightweight stroller that folds small, ideal for city breaks or air travel.",
     "price": 399.99,
     "image": "/productImages/uppababyminu.jpg",
-    "category": "Strollers",
+    "category": "Baby Carriers",
     "asin": "B07DPSG3HK",
     "affiliateLink": "https://a.co/d/as2lTTs?tag=babytravelbun-20",
     "tags": ["city", "weekend", "airplane", "train", "newborn", "infant"]
@@ -60,7 +60,7 @@
     "description": "A spacious diaper bag that helps you organize all your baby's essentials for long trips.",
     "price": 110.00,
     "image": "/productImages/skiphop.jpg",
-    "category": "Diaper Bags",
+    "category": "Diaper/Nappies",
     "asin": "B075L9KQG7",
     "affiliateLink": "https://a.co/d/3p8hFcd?tag=babytravelbun-20",
     "tags": ["weekend", "week", "twoWeeks", "car", "airplane", "newborn", "infant", "toddler"]
@@ -82,7 +82,7 @@
     "description": "A compact wipes dispenser to keep baby clean on the go, perfect for quick diaper changes.",
     "price": 9.99,
     "image": "/productImages/oxotot.jpg",
-    "category": "Diapering",
+    "category": "Diaper/Nappies",
     "asin": "B0050GD2R4",
     "affiliateLink": "https://a.co/d/hJvIEIH?tag=babytravelbun-20",
     "tags": ["weekend", "week", "twoWeeks", "hygiene", "diaper", "newborn", "infant", "toddler"]
@@ -104,7 +104,7 @@
     "description": "A travel-sized cleaning solution specifically designed for baby bottles and dishes.",
     "price": 5.99,
     "image": "/productImages/dapple_baby.jpg",
-    "category": "Cleaning",
+    "category": "Feeding",
     "asin": "B07F6JZJND",
     "affiliateLink": "https://a.co/d/9W1HyOU?tag=babytravelbun-20",
     "tags": ["weekend", "week", "feeding", "hygiene", "newborn", "infant"]
@@ -137,7 +137,7 @@
     "description": "An all-season sleep sack that keeps your baby comfortable in a wide range of temperatures.",
     "price": 109.99,
     "image": "/productImages/woolino.jpg",
-    "category": "Sleep",
+    "category": "Health",
     "asin": "B013KFQD1C",
     "affiliateLink": "https://a.co/d/3WJC310?tag=babytravelbun-20",
     "tags": ["weekend", "week", "twoWeeks", "sleep", "hotWeather", "coldWeather", "newborn", "infant"]
@@ -148,7 +148,7 @@
     "description": "A small, travel-friendly white noise machine to ensure your baby sleeps well anywhere.",
     "price": 40.99,
     "image": "/productImages/yogasleep.jpg",
-    "category": "Sleep",
+    "category": "Health",
     "asin": "B01D50RYSC",
     "affiliateLink": "https://a.co/d/buOi0el?tag=babytravelbun-20",
     "tags": ["weekend", "week", "twoWeeks", "hotel", "airbnb", "sleep", "newborn", "infant", "toddler"]
@@ -159,7 +159,7 @@
     "description": "An inflatable bathtub that packs small, perfect for bathing babies on the go.",
     "price": 13.32,
     "image": "/productImages/munchkintub.jpg",
-    "category": "Bathing",
+    "category": "Health",
     "asin": "B001QKDI48",
     "affiliateLink": "https://a.co/d/1lSRc67?tag=babytravelbun-20",
     "tags": ["weekend", "week", "hotel", "airbnb", "newborn", "infant"]
@@ -197,7 +197,8 @@
     "affiliateLink": "https://a.co/d/9vRB5L2?tag=babytravelbun-20",
     "tags": ["weekend", "week", "hygiene", "airplane", "car", "newborn", "infant", "toddler"]
   },
-  {"id": "19",
+  {
+    "id": "19",
     "name": "HelloBaby Upgrade Baby Monitor",
     "description": "A baby monitor & camera to track your baby's sleep.",
     "price": 67.99,
@@ -213,7 +214,7 @@
     "description": "Protects your car's seats from spills and wear during road trips with baby.",
     "price": 34.99,
     "image": "/productImages/munchkin.jpg",
-    "category": "Car Accessories",
+    "category": "Travel Systems",
     "asin": "B006ZISVSO",
     "affiliateLink": "https://a.co/d/eilkZLp?tag=babytravelbun-20",
     "tags": ["weekend", "week", "roadTrip", "car", "toddler", "infant"]
@@ -224,7 +225,7 @@
     "description": "A convenient stroller organizer for keeping baby essentials within easy reach.",
     "price": 24.99,
     "image": "/productImages/skiphoporganiser.jpg",
-    "category": "Strollers",
+    "category": "Baby Carriers",
     "asin": "B006YVZYD2",
     "affiliateLink": "https://a.co/d/iVgS96E?tag=babytravelbun-20",
     "tags": ["weekend", "week", "city", "beach", "stroller", "toddler", "infant"]
@@ -235,7 +236,7 @@
     "description": "A beloved, travel-friendly teething toy that babies love.",
     "price": 24.99,
     "image": "/productImages/sophielagirafe.jpg",
-    "category": "Toys",
+    "category": "Health",
     "asin": "B000IDSLOG",
     "affiliateLink": "https://a.co/d/32w1Von?tag=babytravelbun-20",
     "tags": ["weekend", "week", "twoWeeks", "feeding", "newborn", "infant"]
@@ -246,7 +247,7 @@
     "description": "A compact, mess-free drawing board perfect for entertaining toddlers on long trips.",
     "price": 8.99,
     "image": "/productImages/crazart.jpg",
-    "category": "Toys",
+    "category": "Health",
     "asin": "B002ZG977G",
     "affiliateLink": "https://a.co/d/hammwZE?tag=babytravelbun-20",
     "tags": ["weekend", "week", "twoWeeks", "roadTrip", "airplane", "toddler"]
@@ -257,7 +258,7 @@
     "description": "A lightweight walker that's easy to carry and provides entertainment for babies during travel.",
     "price": 39.99,
     "image": "/productImages/vtechbabywalker.jpg",
-    "category": "Toys",
+    "category": "Health",
     "asin": "B000NZQ010",
     "affiliateLink": "https://a.co/d/bzinNck?tag=babytravelbun-20",
     "tags": ["week", "twoWeeks", "roadTrip", "hotel", "airbnb", "infant", "toddler"]
@@ -268,7 +269,7 @@
     "description": "A multi-sensory travel-friendly toy that entertains babies on the go.",
     "price": 14.99,
     "image": "/productImages/skiphopbandana.jpg",
-    "category": "Toys",
+    "category": "Health",
     "asin": "B00V62CKYG",
     "affiliateLink": "https://a.co/d/7Imie44?tag=babytravelbun-20",
     "tags": ["weekend", "week", "twoWeeks", "roadTrip", "airplane", "newborn", "infant"]
@@ -279,7 +280,7 @@
     "description": "A lightweight and easy-to-grip ball that babies love to play with while traveling.",
     "price": 6.99,
     "image": "/productImages/brightstarts.jpg",
-    "category": "Toys",
+    "category": "Health",
     "asin": "B01EGX5XJ2",
     "affiliateLink": "https://a.co/d/dcPif3Z?tag=babytravelbun-20",
     "tags": ["weekend", "week", "twoWeeks", "newborn", "infant", "toddler"]
@@ -322,10 +323,10 @@
     "name": "Cozy Cover Infant Car Seat Cover",
     "description": "Keeps your baby warm and cozy during cold-weather travel.",
     "price": 29.99,
-    "image": "/image.jpg",
-    "category": "Car Accessories",
+    "image": "https://m.media-amazon.com/images/I/51iQgx1kIsL._SX466_.jpg",
+    "category": "Travel Systems",
     "asin": "B00W8YZ93E",
-    "affiliateLink": "https://www.amazon.com/dp/B00W8YZ93E?tag=babytravelbun-20",
+    "affiliateLink": "https://a.co/d/7MURjSD?tag=babytravelbun-20",
     "tags": ["weekend", "week", "coldWeather", "car", "roadTrip", "infant"]
   },
   {
@@ -333,10 +334,10 @@
     "name": "JJ Cole Outdoor Blanket",
     "description": "A waterproof and easy-to-fold blanket for outdoor activities during travel.",
     "price": 39.95,
-    "image": "/image.jpg",
+    "image": "https://m.media-amazon.com/images/I/81ZI3mHkCWL._SX466_.jpg",
     "category": "Travel Accessories",
     "asin": "B00PBW8TUI",
-    "affiliateLink": "https://www.amazon.com/dp/B00PBW8TUI?tag=babytravelbun-20",
+    "affiliateLink": "https://a.co/d/1HgOMLK?tag=babytravelbun-20",
     "tags": ["weekend", "week", "beach", "outdoors", "infant", "toddler"]
   },
   {
@@ -344,10 +345,10 @@
     "name": "Puj Flyte Compact Bathtub",
     "description": "A foldable bathtub that fits in most sinks, perfect for small spaces during travel.",
     "price": 34.99,
-    "image": "/image.jpg",
-    "category": "Bathing",
+    "image": "https://m.media-amazon.com/images/I/51L4SQ9IRTL._SX466_.jpg",
+    "category": "Health",
     "asin": "B00X99DTPY",
-    "affiliateLink": "https://www.amazon.com/dp/B00X99DTPY?tag=babytravelbun-20",
+    "affiliateLink": "https://a.co/d/9Z7wx4q?tag=babytravelbun-20",
     "tags": ["weekend", "week", "hotel", "airbnb", "newborn", "infant"]
   },
   {
@@ -355,10 +356,10 @@
     "name": "Baby Bjorn Soft Bibs",
     "description": "Durable, easy-to-clean bibs perfect for mealtime during travel.",
     "price": 17.99,
-    "image": "/image.jpg",
+    "image": "https://m.media-amazon.com/images/I/6187AP5WEVL._SX679_.jpg",
     "category": "Feeding",
     "asin": "B000067EH7",
-    "affiliateLink": "https://www.amazon.com/dp/B000067EH7?tag=babytravelbun-20",
+    "affiliateLink": "https://a.co/d/4V0dZxI?tag=babytravelbun-20",
     "tags": ["weekend", "week", "feeding", "hygiene", "infant", "toddler"]
   },
   {
@@ -366,10 +367,10 @@
     "name": "Stokke Flexi Bath",
     "description": "A foldable baby bathtub that's perfect for traveling families with limited space.",
     "price": 49.99,
-    "image": "/image.jpg",
-    "category": "Bathing",
+    "image": "https://m.media-amazon.com/images/I/51AWNf1DmGL._SX466_.jpg",
+    "category": "Health",
     "asin": "B00JYHIXDM",
-    "affiliateLink": "https://www.amazon.com/dp/B00JYHIXDM?tag=babytravelbun-20",
+    "affiliateLink": "https://a.co/d/5EFt0aI?tag=babytravelbun-20",
     "tags": ["weekend", "week", "hotel", "airbnb", "newborn", "infant", "toddler"]
   },
   {
@@ -377,10 +378,10 @@
     "name": "Potette Plus Travel Potty",
     "description": "A portable potty seat that folds up for easy storage and use on the go.",
     "price": 19.99,
-    "image": "/image.jpg",
-    "category": "Diapering",
+    "image": "https://m.media-amazon.com/images/I/61M1BC3NgnL._SX466_.jpg",
+    "category": "Diaper/Nappies",
     "asin": "B003BTS7X6",
-    "affiliateLink": "https://www.amazon.com/dp/B003BTS7X6?tag=babytravelbun-20",
+    "affiliateLink": "https://a.co/d/fSerr3c?tag=babytravelbun-20",
     "tags": ["weekend", "week", "twoWeeks", "roadTrip", "toddler"]
   },
   {
@@ -388,10 +389,65 @@
     "name": "NoseFrida Snotsucker",
     "description": "A travel-friendly nasal aspirator to help clear baby's stuffy nose during flights or road trips.",
     "price": 16.99,
-    "image": "/image.jpg",
+    "image": "https://m.media-amazon.com/images/I/71gbGIBzunL._SX679_.jpg",
     "category": "Health",
     "asin": "B00RPJQ5PO",
-    "affiliateLink": "https://www.amazon.com/dp/B00RPJQ5PO?tag=babytravelbun-20",
+    "affiliateLink": "https://a.co/d/737NLUM?tag=babytravelbun-20",
     "tags": ["weekend", "week", "airplane", "roadTrip", "newborn", "infant"]
+  },
+  {
+    "id": "38",
+    "name": "Boba Wrap Baby Carrier",
+    "description": "Comfortable and secure baby wrap for parents, offering full flexibility and ease of travel.",
+    "price": 49.95,
+    "image": "https://m.media-amazon.com/images/I/51REbSI8qoL.jpg",
+    "category": "Baby Carriers",
+    "asin": "B005SP2LWW",
+    "affiliateLink": "https://www.amazon.com/dp/B005SP2LWW?tag=babytravelbun-20",
+    "tags": ["weekend", "week", "newborn", "infant"]
+  },
+  {
+    "id": "39",
+    "name": "Infantino Flip Advanced 4-in-1 Carrier",
+    "description": "Ergonomic, convertible baby carrier with adjustable seat and straps for both newborns and toddlers.",
+    "price": 28.49,
+    "image": "https://m.media-amazon.com/images/I/51rbikGwSJL.jpg",
+    "category": "Baby Carriers",
+    "asin": "B00M0DWQYI",
+    "affiliateLink": "https://www.amazon.com/dp/B00M0DWQYI?tag=babytravelbun-20",
+    "tags": ["weekend", "week", "infant", "toddler"]
+  },
+  {
+    "id": "40",
+    "name": "Deuter Kid Comfort Child Carrier Backpack",
+    "description": "Premium child carrier backpack with safety and comfort features, perfect for outdoor adventures.",
+    "price": 258.95,
+    "image": "https://m.media-amazon.com/images/I/41tJ0E2pMXL.jpg",
+    "category": "Baby Carriers",
+    "asin": "B08FF8TMLW",
+    "affiliateLink": "https://www.amazon.com/dp/B08FF8TMLW?tag=babytravelbun-20",
+    "tags": ["weekend", "week", "toddler", "outdoors"]
+  },
+  {
+    "id": "41",
+    "name": "ClevrPlus Cross Country Baby Backpack Carrier",
+    "description": "Durable, lightweight hiking carrier with safety belts and stirrups for toddlers up to 33 pounds.",
+    "price": 104.95,
+    "image": "https://m.media-amazon.com/images/I/41eDBpgY0vL.jpg",
+    "category": "Baby Carriers",
+    "asin": "B07CZ5T1KF",
+    "affiliateLink": "https://www.amazon.com/dp/B07CZ5T1KF?tag=babytravelbun-20",
+    "tags": ["weekend", "week", "toddler", "hiking"]
+  },
+  {
+    "id": "42",
+    "name": "Baby Tula Explore Mesh Baby Carrier",
+    "description": "Ergonomic, adjustable baby carrier with mesh panel to keep babies cool during travel.",
+    "price": 199.00,
+    "image": "https://m.media-amazon.com/images/I/41wJ30GdOXL.jpg",
+    "category": "Baby Carriers",
+    "asin": "B085JQWT9W",
+    "affiliateLink": "https://www.amazon.com/dp/B085JQWT9W?tag=babytravelbun-20",
+    "tags": ["weekend", "week", "newborn", "infant", "toddler"]
   }
 ]

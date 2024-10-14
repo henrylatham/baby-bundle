@@ -6,7 +6,8 @@ const nextConfig = {
       "pbs.twimg.com",
       "images.unsplash.com",
       "logos-world.net",
-      "localhost", // Add this line
+      "localhost",
+      "m.media-amazon.com",
     ],
   },
   webpack: (config, { isServer }) => {

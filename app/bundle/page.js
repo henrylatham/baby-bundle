@@ -6,7 +6,7 @@ import { toast, Toaster } from 'react-hot-toast'
 import QuestionForm from '@/components/QuestionForm'
 import questions from '@/data/questions.json'
 import products from '@/data/products.json'
-import { filterProducts } from '@/utils/filterProducts'
+import { filterProducts } from '@/utils/filterProducts.js'
 
 export default function Bundle() {
   const [answers, setAnswers] = useState({})

@@ -50,7 +50,7 @@ const ButtonLead = ({ extraStyle, variant = "row" }) => {
         value={email}
         ref={inputRef}
         autoComplete="email"
-        placeholder="mum@tired.com"
+        placeholder="tiredmum@email.com"
         className={inputClasses}
         onChange={(e) => setEmail(e.target.value)}
       />

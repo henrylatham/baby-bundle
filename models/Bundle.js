@@ -7,7 +7,11 @@ const BundleSchema = new mongoose.Schema({
       name: String,
       description: String,
       price: Number,
-      image: String
+      image: String,
+      category: String,
+      asin: String,
+      affiliateLink: String,
+      tags: [String]
     }
   ],
   answers: {

@@ -1,11 +1,32 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import ButtonLead from "./ButtonLead";
 import { IoClose } from 'react-icons/io5';
 
 export default function TopBanner() {
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const checkBannerVisibility = () => {
+      const lastClosedTime = localStorage.getItem('topBannerClosedTime');
+      const currentTime = new Date().getTime();
+      if (!lastClosedTime || currentTime - parseInt(lastClosedTime) > 24 * 60 * 60 * 1000) {
+        setIsVisible(true);
+      }
+    };
+
+    checkBannerVisibility();
+    // Check visibility every minute in case 24 hours have passed while the page is open
+    const intervalId = setInterval(checkBannerVisibility, 60000);
+
+    return () => clearInterval(intervalId);
+  }, []);
+
+  const handleClose = () => {
+    setIsVisible(false);
+    localStorage.setItem('topBannerClosedTime', new Date().getTime().toString());
+  };
 
   if (!isVisible) return null;
 
@@ -21,7 +42,7 @@ export default function TopBanner() {
           </div>
         </div>
         <button 
-          onClick={() => setIsVisible(false)} 
+          onClick={handleClose} 
           className="absolute top-5 right-3 text-white hover:text-gray-200"
           aria-label="Close banner"
         >
